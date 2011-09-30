@@ -1,0 +1,98 @@
+/* 
+    Document   : fz_tag
+    Created on : 2010-11-16, 20:50:56
+    Author     : Grzegorz Śliwiński
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+a.fz-tag, a.fz-tag:active, a.fz-tag:hover, a.fz-tag:visited
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+ul.fz-tag-cloud
+{
+    list-style: none;
+}
+
+div.fz-tag-cloud-3d a, ul.fz-tag-cloud a, canvas#fz-tag-canvas a
+{
+    text-decoration: none;
+    padding: 2px;
+}
+
+
+div.fz-tag-cloud-3d a:hover, ul.fz-tag-cloud a:hover, canvas#fz-tag-canvas a
+{
+    border: #000000 solid 1px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+ul.fz-tag-cloud li
+{
+    display: inline;
+}
+
+ul.fz-tag-cloud li.fz-size-1 a
+{
+    font-size: 1.6em;
+}
+ul.fz-tag-cloud li.fz-size-2 a
+{
+    font-size: 1.3em;
+}
+ul.fz-tag-cloud li.fz-size-3 a
+{
+    font-size: 1em;
+}
+ul.fz-tag-cloud li.fz-size-4 a
+{
+    font-size: 0.8em;
+}
+ul.fz-tag-cloud li.fz-size-5 a
+{
+    font-size: 0.6em;
+}
+
+ul.fz-tag-list li
+{
+    list-style: none;
+}
+
+ul.fz-tag-list li:hover span.fz-tag-name
+{
+    background-color: #cecece;
+    border-top: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    border-radius: 5px;
+
+}
+
+ul.fz-tag-list span.fz-tag-name
+{
+    display: inline-block;
+    border-top: transparent 1px solid;
+    border-bottom: transparent 1px solid;
+    padding-left: 2px;
+    width: 300px;
+}
+
+div.fz-tag-list-header a
+{
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+span.header-asc a
+{
+    background-image: url('../../sfDoctrinePlugin/images/asc.png');
+}
+
+span.header-desc a
+{
+    background-image: url('../../sfDoctrinePlugin/images/desc.png');
+}

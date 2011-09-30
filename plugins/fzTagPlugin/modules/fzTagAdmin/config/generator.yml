@@ -1,0 +1,34 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           fzTag
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Tag
+    plural:                Tags
+    route_prefix:          fz_tag
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+      list:
+        title: 'Tags list'
+        display:
+          - '=name'
+          - weight
+        sort: [weight, desc]
+        object_actions: { _delete: ~ }
+      filter:
+        display:
+          - name
+      form:
+        display:
+          TAG: [name, _reportUsage]
+        class: fzTagAdminForm
+      edit:
+        title: 'Edit "%%name%%" tag'
+      new:
+        title: 'New tag'

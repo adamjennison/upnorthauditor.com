@@ -10,7 +10,8 @@
   </head>
   <body>
    <?php //include_component('fzTag', 'tagCloud', array('limit' => 25 ));  ?>
-
+    <?php include_partial('global/quickmenu'); ?>
     <?php echo $sf_content ?>
+    <?php include_partial('global/quickfooter'); ?>
   </body>
 </html>

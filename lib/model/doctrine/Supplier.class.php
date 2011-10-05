@@ -12,4 +12,34 @@
  */
 class Supplier extends BaseSupplier
 {
+  
+  public function getSpendByService($serviceId){
+      $q=Doctrine_Core::getTable('Spend')
+	   ->createQuery('s')
+	   ->where('s.supplier_id=?',$this->getId())
+	   ->andWhere('s.service_id=?',$service_id);
+     
+      return $q->execute();
+  }
+  
+    public function getTotalSpendByService($serviceId){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT sum(amount) as total from spend where (service_id='.$serviceId.' and supplier_id='.$this->getId().')';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }
+
+    public function getCountSpendByService($serviceId){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT count(amount) as total from spend where (service_id='.$serviceId.' and supplier_id='.$this->getId().')';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }  
+  
 }

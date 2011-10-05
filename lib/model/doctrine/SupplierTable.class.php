@@ -16,4 +16,15 @@ class SupplierTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Supplier');
     }
+    
+    public static function getNumberOfSuppliers(){
+        
+                $connection = Doctrine_Manager::connection();
+        $query = 'SELECT count(name) as total from supplier';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+    }    
 }

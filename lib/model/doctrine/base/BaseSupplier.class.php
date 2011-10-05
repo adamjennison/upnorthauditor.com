@@ -8,18 +8,30 @@
  * @property integer $id
  * @property string $name
  * @property string $soundexvalue
+ * @property string $url
+ * @property string $notes
+ * @property integer $views
  * @property Doctrine_Collection $Orders
+ * @property Doctrine_Collection $Service
  * @property Doctrine_Collection $Aliases
  * 
  * @method integer             getId()           Returns the current record's "id" value
  * @method string              getName()         Returns the current record's "name" value
  * @method string              getSoundexvalue() Returns the current record's "soundexvalue" value
+ * @method string              getUrl()          Returns the current record's "url" value
+ * @method string              getNotes()        Returns the current record's "notes" value
+ * @method integer             getViews()        Returns the current record's "views" value
  * @method Doctrine_Collection getOrders()       Returns the current record's "Orders" collection
+ * @method Doctrine_Collection getService()      Returns the current record's "Service" collection
  * @method Doctrine_Collection getAliases()      Returns the current record's "Aliases" collection
  * @method Supplier            setId()           Sets the current record's "id" value
  * @method Supplier            setName()         Sets the current record's "name" value
  * @method Supplier            setSoundexvalue() Sets the current record's "soundexvalue" value
+ * @method Supplier            setUrl()          Sets the current record's "url" value
+ * @method Supplier            setNotes()        Sets the current record's "notes" value
+ * @method Supplier            setViews()        Sets the current record's "views" value
  * @method Supplier            setOrders()       Sets the current record's "Orders" collection
+ * @method Supplier            setService()      Sets the current record's "Service" collection
  * @method Supplier            setAliases()      Sets the current record's "Aliases" collection
  * 
  * @package    myshelf
@@ -46,6 +58,17 @@ abstract class BaseSupplier extends sfDoctrineRecord
              'notnull' => true,
              'length' => 255,
              ));
+        $this->hasColumn('url', 'string', 255, array(
+             'type' => 'string',
+             'length' => 255,
+             ));
+        $this->hasColumn('notes', 'string', 4000, array(
+             'type' => 'string',
+             'length' => 4000,
+             ));
+        $this->hasColumn('views', 'integer', null, array(
+             'type' => 'integer',
+             ));
     }
 
     public function setUp()
@@ -54,6 +77,11 @@ abstract class BaseSupplier extends sfDoctrineRecord
         $this->hasMany('Spend as Orders', array(
              'local' => 'id',
              'foreign' => 'supplier_id'));
+
+        $this->hasMany('Service', array(
+             'refClass' => 'Spend',
+             'local' => 'supplier_id',
+             'foreign' => 'service_id'));
 
         $this->hasMany('Supplieralias as Aliases', array(
              'local' => 'id',

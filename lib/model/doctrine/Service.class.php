@@ -12,4 +12,16 @@
  */
 class Service extends BaseService
 {
+  
+  public function getTotalSpent(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT sum(amount) as total from spend where service_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }
+  
+  
 }

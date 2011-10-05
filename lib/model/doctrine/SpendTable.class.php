@@ -16,4 +16,116 @@ class SpendTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Spend');
     }
+    
+    public static function getNumberOfTransactions(){
+        
+                $connection = Doctrine_Manager::connection();
+        $query = 'SELECT count(amount) as total from spend where amount >0';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+    }    
+    public static function getNumberOfNegTransactions(){
+        
+                $connection = Doctrine_Manager::connection();
+        $query = 'SELECT count(amount) as total from spend where amount <0';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+    }        
+    
+    public static function getTotalValue(){
+        
+        $connection = Doctrine_Manager::connection();
+        $query = 'SELECT sum(amount) as total from spend';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+    }        
+
+    public static function getMaxTransaction(){
+        
+        $connection = Doctrine_Manager::connection();
+        $query = 'SELECT max(amount) as total from spend';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+    }        
+
+     
+  
+    public static function getAllSupplierSpend($SupplierId){
+      
+        $q = Doctrine_Core::getTable('Spend')
+        ->createQuery('s')
+        ->where('supplier_id= ?', $SupplierId)
+        ->orderBy('s.spenddate DESC');
+        
+        $spend= $q->execute();
+        
+        $connection = Doctrine_Manager::connection();
+        $query = 'SELECT SUM(amount) as spendtotal from spend where supplier_id=\''.$SupplierId.'\'';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $spendtotal=$resultset->spendtotal;
+        
+        $returnInfo=array();
+        $returnInfo['spend']=$spend;
+        $returnInfo['total']=$spendtotal;
+        return $returnInfo;
+        
+    }
+    public static function getAllServiceSpend($ServiceId){
+      
+        $q = Doctrine_Core::getTable('Spend')
+        ->createQuery('s')
+        ->where('service_id= ?', $ServiceId)
+        ->orderBy('s.spenddate DESC');
+        
+        $spend= $q->execute();
+        
+        $connection = Doctrine_Manager::connection();
+        $query = 'SELECT SUM(amount) as spendtotal from spend where service_id=\''.$ServiceId.'\'';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $spendtotal=$resultset->spendtotal;
+        
+        $returnInfo=array();
+        $returnInfo['spend']=$spend;
+        $returnInfo['total']=$spendtotal;
+        return $returnInfo;
+        
+    }    
+    public static function getAllDirectorateSpend($DirectorateId){
+      
+        $q = Doctrine_Core::getTable('Spend')
+        ->createQuery('s')
+        ->where('directorate_id= ?', $DirectorateId)
+        ->orderBy('s.spenddate DESC');
+        
+        $spend= $q->execute();
+        
+        $connection = Doctrine_Manager::connection();
+        $query = 'SELECT SUM(amount) as spendtotal from spend where directorate_id=\''.$DirectorateId.'\'';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $spendtotal=$resultset->spendtotal;
+        
+        $returnInfo=array();
+        $returnInfo['spend']=$spend;
+        $returnInfo['total']=$spendtotal;
+        return $returnInfo;
+        
+    }        
 }

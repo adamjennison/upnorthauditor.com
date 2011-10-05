@@ -1,35 +1,43 @@
 <?php
+   $args = new Args();   
+   $file=null;
+   $directory = '/var/www/library/web/uploads/spend/';   
+   //if($args->flag('f')){
+     // $csv = file($directory.$args->flag('f').'.csv');
+    //  $csv = file($args->flag('f'));
+    //}else{
+     //echo "we need a file??  usage:  php loadspend.php -f <file name>\n";
+    // echo "\n";
+    // die();       
+   // }
+   foreach($args->args as $arg){
+     echo "Argument: $arg\n";
+     $csv=$arg;
+   }
+  // $csv = $args->args;
+   echo "starting $csv  \n";
+  require_once(dirname(__FILE__) .'/../config/ProjectConfiguration.class.php');
+  $configuration = ProjectConfiguration::getApplicationConfiguration('frontend','dev',true);
+  $databaseManager = new sfDatabaseManager($configuration);
 
-/**
- * import actions.
- *
- * @package    myshelf
- * @subpackage import
- * @author     Adam Jennison
- * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
- */
-class importActions extends sfActions
-{
- /**
-  * Executes index action
-  *
-  * @param sfRequest $request A request object
-  */
-  public function executeIndex(sfWebRequest $request)
-  {
-    $directory = 'uploads/spend/';
-    $csvs = glob("" . $directory . "*.csv");
-    //$csvs = glob("" . $directory );
-    //echo 'There are '.count($csvs).' files to parse<br/>';
-    foreach($csvs as $csv)
-    {
+
       $reader = new sfCsvReader($csv);
       $reader->open();
       echo 'parsing file '.$csv;
       echo '<br/>';
       while ($data = $reader->read())
       {
-          $spend=new Spend();
+          makestuff($data);
+      }//end while
+      $reader->close();
+      $reader=null;//release the memory
+      
+    //}//end foreach -files
+    echo "completed $csv \n\n\n\n";
+//----------------------------------------------------------------------
+
+function makestuff( $data){
+           $spend=new Spend();
           //lets convert the crappy dates dd-mm-yy to a good old mysql date yyyy-mm-dd
           $datebits=explode('-',$data[2]);
           $day=$datebits[0];
@@ -37,7 +45,7 @@ class importActions extends sfActions
           $year='20'.$datebits[2];
           $spenddate=$year.'-'.$month.'-'.$day;
           $spend->setSpenddate($spenddate);
-          echo $spenddate.'<br/>';
+         // echo $spenddate.'<br/>';
           $spend->setSuppliername($data[5]);
           $spend->setSuppliernamesoundex(soundex($data[5]));
           $spend->setAmount($data[4]);
@@ -49,7 +57,7 @@ class importActions extends sfActions
           //right we have set the main details now lets try making the relationships
           //first supplier
           $cleanSupplierName=trim($data[5]);
-          echo 'Original name:'.$data[5].'<br/>';
+       //   echo 'Original name:'.$data[5].'<br/>';
           $cleanSupplierName=trim($cleanSupplierName,'.');
           $cleanSupplierName = str_replace('LIMITED','LTD',$cleanSupplierName);
           $cleanSupplierName = str_replace('NO CHQ ONLY ','',$cleanSupplierName);
@@ -58,12 +66,12 @@ class importActions extends sfActions
          // need to do regexp replace on these strings..
          
           $cleanSupplierName = trim($cleanSupplierName);
-          echo 'end name:'.$cleanSupplierName.'<br/>';
+        //  echo 'end name:'.$cleanSupplierName.'<br/>';
           $supplier= Doctrine::getTable('Supplier')->findOneByName($cleanSupplierName);
           if($supplier){
             //we have the supplier so we can insert the supplier id 
             $spend->setSupplierId($supplier->getId());
-            echo 'Found a supplier so we grabe the id:'.$supplier->getId().'<br/>';
+        //    echo 'Found a supplier so we grabe the id:'.$supplier->getId().'<br/>';
           }else{
             // no supplier so we create one
             $supplier = new Supplier();
@@ -71,7 +79,7 @@ class importActions extends sfActions
             $supplier->setSoundexvalue(soundex($cleanSupplierName));
             $supplier->save();
             $spend->setSupplierID($supplier->getId());
-            echo 'Created a new supplier with id:'.$supplier->getId().'<br/>';
+        //    echo 'Created a new supplier with id:'.$supplier->getId().'<br/>';
             //now lets check for a supplier alias and create one if need be
           }
             $supplieralias= Doctrine::getTable('Supplieralias')->findOneByName($data[5]);
@@ -125,11 +133,69 @@ class importActions extends sfActions
           $spend->setServiceId($serviceId);
           $service->free(true); //release the memory
           $spend->save();
-          $spend->free(true); //release the memory 
-      }//end while
-      $reader->close();
-      $reader=null;//release the memory
-      
-    }//end foreach -files
+          $spend->free(true); //release the memory  
+  
   }
-}
+class Args
+    {
+        private $flags;
+        public $args;
+
+        public function __construct()
+        {
+            $this->flags = array();
+            $this->args  = array();
+
+            $argv = $GLOBALS['argv'];
+            array_shift($argv);
+
+            for($i = 0; $i < count($argv); $i++)
+            {
+                $str = $argv[$i];
+
+                // --foo
+                if(strlen($str) > 2 && substr($str, 0, 2) == '--')
+                {
+                                        $str = substr($str, 2);
+                    $parts = explode('=', $str);
+                    $this->flags[$parts[0]] = true;
+
+                    // Does not have an =, so choose the next arg as its value
+                    if(count($parts) == 1 && isset($argv[$i + 1]) && preg_match('/^--?.+/', $argv[$i + 1]) == 0)
+                    {
+                        $this->flags[$parts[0]] = $argv[$i + 1];
+                    }
+                    elseif(count($parts) == 2) // Has a =, so pick the second piece
+                    {
+                        $this->flags[$parts[0]] = $parts[1];
+                    }
+                }
+                elseif(strlen($str) == 2 && $str[0] == '-') // -a
+                {
+                    $this->flags[$str[1]] = true;
+                    if(isset($argv[$i + 1]) && preg_match('/^--?.+/', $argv[$i + 1]) == 0)
+                        $this->flags[$str[1]] = $argv[$i + 1];
+                }
+                elseif(strlen($str) > 1 && $str[0] == '-') // -abcdef
+                {
+                    for($j = 1; $j < strlen($str); $j++)
+                        $this->flags[$str[$j]] = true;
+                }
+            }
+
+            for($i = count($argv) - 1; $i >= 0; $i--)
+            {
+                if(preg_match('/^--?.+/', $argv[$i]) == 0)
+                    $this->args[] = $argv[$i];
+                else
+                    break;
+            }
+
+            $this->args = array_reverse($this->args);
+        }
+
+        public function flag($name)
+        {
+            return isset($this->flags[$name]) ? $this->flags[$name] : false;
+        }
+    }

@@ -16,4 +16,15 @@ class DirectorateTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Directorate');
     }
+    
+    public static function getNumberOfDirectorates(){
+        
+                $connection = Doctrine_Manager::connection();
+        $query = 'SELECT count(name) as total from directorate';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+    }    
 }

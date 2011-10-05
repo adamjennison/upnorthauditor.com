@@ -16,4 +16,15 @@ class ServiceTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Service');
     }
+    
+    public static function getNumberOfServices(){
+        
+                $connection = Doctrine_Manager::connection();
+        $query = 'SELECT count(name) as total from service';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+    }
 }

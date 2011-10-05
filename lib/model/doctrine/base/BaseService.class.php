@@ -10,6 +10,7 @@
  * @property string $soundexvalue
  * @property integer $directorate_id
  * @property Directorate $directorate
+ * @property Doctrine_Collection $Supplier
  * @property Doctrine_Collection $Servicespend
  * 
  * @method integer             getId()             Returns the current record's "id" value
@@ -17,12 +18,14 @@
  * @method string              getSoundexvalue()   Returns the current record's "soundexvalue" value
  * @method integer             getDirectorateId()  Returns the current record's "directorate_id" value
  * @method Directorate         getDirectorate()    Returns the current record's "directorate" value
+ * @method Doctrine_Collection getSupplier()       Returns the current record's "Supplier" collection
  * @method Doctrine_Collection getServicespend()   Returns the current record's "Servicespend" collection
  * @method Service             setId()             Sets the current record's "id" value
  * @method Service             setName()           Sets the current record's "name" value
  * @method Service             setSoundexvalue()   Sets the current record's "soundexvalue" value
  * @method Service             setDirectorateId()  Sets the current record's "directorate_id" value
  * @method Service             setDirectorate()    Sets the current record's "directorate" value
+ * @method Service             setSupplier()       Sets the current record's "Supplier" collection
  * @method Service             setServicespend()   Sets the current record's "Servicespend" collection
  * 
  * @package    myshelf
@@ -60,6 +63,11 @@ abstract class BaseService extends sfDoctrineRecord
         $this->hasOne('Directorate as directorate', array(
              'local' => 'directorate_id',
              'foreign' => 'id'));
+
+        $this->hasMany('Supplier', array(
+             'refClass' => 'Spend',
+             'local' => 'service_id',
+             'foreign' => 'supplier_id'));
 
         $this->hasMany('Spend as Servicespend', array(
              'local' => 'id',

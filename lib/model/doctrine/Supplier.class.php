@@ -41,5 +41,69 @@ class Supplier extends BaseSupplier
         $total=$resultset->total;
         return $total;
   }  
+    public function getTotalTransactions(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT count(amount) as total from spend where supplier_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }
   
+  public function getMinPayment(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT min(amount) as total from spend where supplier_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }  
+
+  public function getAvgPayment(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT avg(amount) as total from spend where supplier_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }    
+
+  public function getMaxPayment(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT max(amount) as total from spend where supplier_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }    
+  
+  public function getSuppliersOrders(){
+      
+     $q = Doctrine_Query::create()
+    ->select('sum(s.amount) AS order2, s.servicename')
+    ->from('spend s')
+    ->where('s.supplier_id = ?', $this->getId())
+    ->groupBy('s.service_id');
+
+    $supplierdetails = $q->execute(); 
+    return $supplierdetails;
+      /*
+     $connection = Doctrine_Manager::connection();
+     $query = 'SELECT sum(amount) as order2, servicename from spend where supplier_id='.$this->getId().' group by service_id order by 1 desc';
+     $statement=$connection->execute($query);
+     $statement->execute();
+     $resultset=$statement->fetch(PDO::FETCH_OBJ);
+     
+    // $order       = $resultset->order2;
+     //$servicename = $resultset->servicename;
+     $returnInfo=array();
+     $returnInfo['order2']=$order;
+     $returnInfo['servicename']=$servicename;
+     return $resultset;
+     */
+    }
 }

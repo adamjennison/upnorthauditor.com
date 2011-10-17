@@ -15,29 +15,31 @@ abstract class BaseSupplierForm extends BaseFormDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id'           => new sfWidgetFormInputHidden(),
-      'name'         => new sfWidgetFormInputText(),
-      'soundexvalue' => new sfWidgetFormInputText(),
-      'url'          => new sfWidgetFormInputText(),
-      'notes'        => new sfWidgetFormTextarea(),
-      'views'        => new sfWidgetFormInputText(),
-      'created_at'   => new sfWidgetFormDateTime(),
-      'updated_at'   => new sfWidgetFormDateTime(),
-      'slug'         => new sfWidgetFormInputText(),
-      'service_list' => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'Service')),
+      'id'               => new sfWidgetFormInputHidden(),
+      'name'             => new sfWidgetFormInputText(),
+      'soundexvalue'     => new sfWidgetFormInputText(),
+      'url'              => new sfWidgetFormInputText(),
+      'notes'            => new sfWidgetFormTextarea(),
+      'views'            => new sfWidgetFormInputText(),
+      'created_at'       => new sfWidgetFormDateTime(),
+      'updated_at'       => new sfWidgetFormDateTime(),
+      'slug'             => new sfWidgetFormInputText(),
+      'directorate_list' => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'Directorate')),
+      'service_list'     => new sfWidgetFormDoctrineChoice(array('multiple' => true, 'model' => 'Service')),
     ));
 
     $this->setValidators(array(
-      'id'           => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'name'         => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'soundexvalue' => new sfValidatorString(array('max_length' => 255)),
-      'url'          => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'notes'        => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
-      'views'        => new sfValidatorInteger(array('required' => false)),
-      'created_at'   => new sfValidatorDateTime(),
-      'updated_at'   => new sfValidatorDateTime(),
-      'slug'         => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'service_list' => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'Service', 'required' => false)),
+      'id'               => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
+      'name'             => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'soundexvalue'     => new sfValidatorString(array('max_length' => 255)),
+      'url'              => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'notes'            => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
+      'views'            => new sfValidatorInteger(array('required' => false)),
+      'created_at'       => new sfValidatorDateTime(),
+      'updated_at'       => new sfValidatorDateTime(),
+      'slug'             => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'directorate_list' => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'Directorate', 'required' => false)),
+      'service_list'     => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'Service', 'required' => false)),
     ));
 
     $this->validatorSchema->setPostValidator(
@@ -62,6 +64,11 @@ abstract class BaseSupplierForm extends BaseFormDoctrine
   {
     parent::updateDefaultsFromObject();
 
+    if (isset($this->widgetSchema['directorate_list']))
+    {
+      $this->setDefault('directorate_list', $this->object->Directorate->getPrimaryKeys());
+    }
+
     if (isset($this->widgetSchema['service_list']))
     {
       $this->setDefault('service_list', $this->object->Service->getPrimaryKeys());
@@ -71,9 +78,48 @@ abstract class BaseSupplierForm extends BaseFormDoctrine
 
   protected function doSave($con = null)
   {
+    $this->saveDirectorateList($con);
     $this->saveServiceList($con);
 
     parent::doSave($con);
+  }
+
+  public function saveDirectorateList($con = null)
+  {
+    if (!$this->isValid())
+    {
+      throw $this->getErrorSchema();
+    }
+
+    if (!isset($this->widgetSchema['directorate_list']))
+    {
+      // somebody has unset this widget
+      return;
+    }
+
+    if (null === $con)
+    {
+      $con = $this->getConnection();
+    }
+
+    $existing = $this->object->Directorate->getPrimaryKeys();
+    $values = $this->getValue('directorate_list');
+    if (!is_array($values))
+    {
+      $values = array();
+    }
+
+    $unlink = array_diff($existing, $values);
+    if (count($unlink))
+    {
+      $this->object->unlink('Directorate', array_values($unlink));
+    }
+
+    $link = array_diff($values, $existing);
+    if (count($link))
+    {
+      $this->object->link('Directorate', array_values($link));
+    }
   }
 
   public function saveServiceList($con = null)

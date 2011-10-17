@@ -27,4 +27,6 @@ class SupplierTable extends Doctrine_Table
         $total=$resultset->total;
         return $total;
     }    
+
+    
 }

@@ -39,13 +39,17 @@
 function makestuff( $data){
            $spend=new Spend();
           //lets convert the crappy dates dd-mm-yy to a good old mysql date yyyy-mm-dd
+          
           $datebits=explode('-',$data[2]);
           $day=$datebits[0];
           $month=date('m', strtotime($datebits[1]));
           $year='20'.$datebits[2];
           $spenddate=$year.'-'.$month.'-'.$day;
+          
           $spend->setSpenddate($spenddate);
-         // echo $spenddate.'<br/>';
+          
+          //$spend->setSpenddate($data[2]);
+         
           $spend->setSuppliername($data[5]);
           $spend->setSuppliernamesoundex(soundex($data[5]));
           $spend->setAmount($data[4]);

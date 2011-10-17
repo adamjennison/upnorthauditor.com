@@ -12,6 +12,7 @@
  * @property string $notes
  * @property integer $views
  * @property Doctrine_Collection $Orders
+ * @property Doctrine_Collection $Directorate
  * @property Doctrine_Collection $Service
  * @property Doctrine_Collection $Aliases
  * 
@@ -22,6 +23,7 @@
  * @method string              getNotes()        Returns the current record's "notes" value
  * @method integer             getViews()        Returns the current record's "views" value
  * @method Doctrine_Collection getOrders()       Returns the current record's "Orders" collection
+ * @method Doctrine_Collection getDirectorate()  Returns the current record's "Directorate" collection
  * @method Doctrine_Collection getService()      Returns the current record's "Service" collection
  * @method Doctrine_Collection getAliases()      Returns the current record's "Aliases" collection
  * @method Supplier            setId()           Sets the current record's "id" value
@@ -31,6 +33,7 @@
  * @method Supplier            setNotes()        Sets the current record's "notes" value
  * @method Supplier            setViews()        Sets the current record's "views" value
  * @method Supplier            setOrders()       Sets the current record's "Orders" collection
+ * @method Supplier            setDirectorate()  Sets the current record's "Directorate" collection
  * @method Supplier            setService()      Sets the current record's "Service" collection
  * @method Supplier            setAliases()      Sets the current record's "Aliases" collection
  * 
@@ -77,6 +80,11 @@ abstract class BaseSupplier extends sfDoctrineRecord
         $this->hasMany('Spend as Orders', array(
              'local' => 'id',
              'foreign' => 'supplier_id'));
+
+        $this->hasMany('Directorate', array(
+             'refClass' => 'Spend',
+             'local' => 'supplier_id',
+             'foreign' => 'directorate_id'));
 
         $this->hasMany('Service', array(
              'refClass' => 'Spend',

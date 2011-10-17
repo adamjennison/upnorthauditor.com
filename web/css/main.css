@@ -5,6 +5,7 @@ body
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5em;  
+  margin:50px 0px; padding:0px;
 }
 
 p
@@ -35,7 +36,8 @@ input
 
 #main
 {
-  margin: 30px 0;
+  width:960px;
+  margin:0px auto;
 }
 
 #footer
@@ -53,7 +55,7 @@ input
 
 a
 {
-  background-color: #dce9b0;
+  background-color: #ceddf2;
   padding: 1px 4px;
   color: #111;
   text-decoration: none;
@@ -69,7 +71,7 @@ a:visited
 
 a:hover
 {
-  background-color: #4f4f4f;
+  background-color: #475f80;
   color:  #fff;
 }
 
@@ -78,7 +80,7 @@ h1
   margin: 0px 0 0 0;
   line-height: 1.4em;
   font-weight: bold;
-  color: #86a11d;
+  color: #6384B1;
   font-size: 170%;
 }
 
@@ -87,7 +89,7 @@ h1.logo
   margin: 20px 0 0 0;
   line-height: 1.4em;
   font-weight: bold;
-  color: #86a11d;
+  color: #6384B1;
   font-size: 230%;
 }
 
@@ -96,7 +98,7 @@ h2
   margin-top: 20px;
   line-height: 1.5em;
   font-weight: bold;
-  color: #86a11d;
+  color: #6384B1;
 }
 
 form
@@ -136,12 +138,17 @@ td, th
 
 th
 {
-  text-align: left;
+  text-align: center;
 }
 
 tr
 {
   border-bottom: 1px solid #eee;
+}
+
+.date
+{
+  width:120px
 }
 
 .right
@@ -242,4 +249,54 @@ a.filter_selected
   padding: 0;
   background-color: #fff;
   vertical-align: bottom;
+}
+
+
+#azindex {
+	background: #ceddf2;
+	float: left;
+	margin: 5px 20px 20px 10px;
+	padding: 0px 5px 15px 5px;
+	width: 520px;
+}
+
+ * html #azindex {
+	padding: 5px 5px 10px 5px;
+	width: 490px;
+}
+	
+#index {
+	font: bold 100% Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}	
+	
+#index li {
+	float: left;
+	height: 2em;
+	list-style-type: none;
+	margin: 0.65em 0.3em;
+	padding: 0;
+	width: 3em;
+}
+
+ * html #index li {
+	margin: 0.2em 0.2em;
+}
+
+#index a:link, #index a:visited {
+	background: #fff;
+	color: navy;
+	display: block;
+	height: 2em;
+	padding: 0.75em 0 0 0;
+	text-align: center;
+	text-decoration: none;
+	width: 3em;
+}
+
+#index a:hover {
+	background: #93D1E4;
+	color: #fff;
+	text-decoration: underline;
 }

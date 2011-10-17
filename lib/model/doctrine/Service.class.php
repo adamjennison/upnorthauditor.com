@@ -23,5 +23,52 @@ class Service extends BaseService
         return $total;
   }
   
+  public function getTotalTransactions(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT count(amount) as total from spend where service_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }
   
+  public function getMinPayment(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT min(amount) as total from spend where service_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }  
+
+  public function getAvgPayment(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT avg(amount) as total from spend where service_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }    
+
+  public function getMaxPayment(){
+         $connection = Doctrine_Manager::connection();
+        $query = 'SELECT max(amount) as total from spend where service_id='.$this->getId();
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $total=$resultset->total;
+        return $total;
+  }    
+  
+  public function getSuppliersInOrder(){
+      $q=Doctrine_Core::getTable('Suppliers')
+      ->createQuery('s')
+      ->where('s.directorate_id=?',$this->getId())
+      ->orderBy('s.name Asc');
+      $services=$q->execute();
+      return $services;
+    }  
 }

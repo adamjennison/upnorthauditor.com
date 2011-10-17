@@ -1,620 +1,987 @@
-Processing /var/www/library/web/uploads/spend/au12aa.csv file...
-Argument: /var/www/library/web/uploads/spend/au12aa.csv
-starting /var/www/library/web/uploads/spend/au12aa.csv  
-parsing file /var/www/library/web/uploads/spend/au12aa.csv<br/>completed /var/www/library/web/uploads/spend/au12aa.csv 
+Processing /var/www/library/web/uploads/spend/aprilaa.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilaa.csv
+starting /var/www/library/web/uploads/spend/aprilaa.csv  
+parsing file /var/www/library/web/uploads/spend/aprilaa.csv<br/>completed /var/www/library/web/uploads/spend/aprilaa.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/au12ab.csv file...
-Argument: /var/www/library/web/uploads/spend/au12ab.csv
-starting /var/www/library/web/uploads/spend/au12ab.csv  
-parsing file /var/www/library/web/uploads/spend/au12ab.csv<br/>completed /var/www/library/web/uploads/spend/au12ab.csv 
+Processing /var/www/library/web/uploads/spend/aprilab.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilab.csv
+starting /var/www/library/web/uploads/spend/aprilab.csv  
+parsing file /var/www/library/web/uploads/spend/aprilab.csv<br/>completed /var/www/library/web/uploads/spend/aprilab.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/august2aa.csv file...
-Argument: /var/www/library/web/uploads/spend/august2aa.csv
-starting /var/www/library/web/uploads/spend/august2aa.csv  
-parsing file /var/www/library/web/uploads/spend/august2aa.csv<br/>completed /var/www/library/web/uploads/spend/august2aa.csv 
+Processing /var/www/library/web/uploads/spend/aprilac.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilac.csv
+starting /var/www/library/web/uploads/spend/aprilac.csv  
+parsing file /var/www/library/web/uploads/spend/aprilac.csv<br/>completed /var/www/library/web/uploads/spend/aprilac.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/august2ac.csv file...
-Argument: /var/www/library/web/uploads/spend/august2ac.csv
-starting /var/www/library/web/uploads/spend/august2ac.csv  
-parsing file /var/www/library/web/uploads/spend/august2ac.csv<br/>completed /var/www/library/web/uploads/spend/august2ac.csv 
+Processing /var/www/library/web/uploads/spend/aprilad.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilad.csv
+starting /var/www/library/web/uploads/spend/aprilad.csv  
+parsing file /var/www/library/web/uploads/spend/aprilad.csv<br/>completed /var/www/library/web/uploads/spend/aprilad.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/august2ad.csv file...
-Argument: /var/www/library/web/uploads/spend/august2ad.csv
-starting /var/www/library/web/uploads/spend/august2ad.csv  
-parsing file /var/www/library/web/uploads/spend/august2ad.csv<br/>completed /var/www/library/web/uploads/spend/august2ad.csv 
+Processing /var/www/library/web/uploads/spend/aprilae.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilae.csv
+starting /var/www/library/web/uploads/spend/aprilae.csv  
+parsing file /var/www/library/web/uploads/spend/aprilae.csv<br/>completed /var/www/library/web/uploads/spend/aprilae.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/augustaa.csv file...
-Argument: /var/www/library/web/uploads/spend/augustaa.csv
-starting /var/www/library/web/uploads/spend/augustaa.csv  
-parsing file /var/www/library/web/uploads/spend/augustaa.csv<br/>completed /var/www/library/web/uploads/spend/augustaa.csv 
+Processing /var/www/library/web/uploads/spend/aprilaf.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilaf.csv
+starting /var/www/library/web/uploads/spend/aprilaf.csv  
+parsing file /var/www/library/web/uploads/spend/aprilaf.csv<br/>completed /var/www/library/web/uploads/spend/aprilaf.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/augustab.csv file...
-Argument: /var/www/library/web/uploads/spend/augustab.csv
-starting /var/www/library/web/uploads/spend/augustab.csv  
-parsing file /var/www/library/web/uploads/spend/augustab.csv<br/>completed /var/www/library/web/uploads/spend/augustab.csv 
+Processing /var/www/library/web/uploads/spend/aprilag.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilag.csv
+starting /var/www/library/web/uploads/spend/aprilag.csv  
+parsing file /var/www/library/web/uploads/spend/aprilag.csv<br/>completed /var/www/library/web/uploads/spend/aprilag.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/augustac.csv file...
-Argument: /var/www/library/web/uploads/spend/augustac.csv
-starting /var/www/library/web/uploads/spend/augustac.csv  
-parsing file /var/www/library/web/uploads/spend/augustac.csv<br/>completed /var/www/library/web/uploads/spend/augustac.csv 
+Processing /var/www/library/web/uploads/spend/aprilah.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilah.csv
+starting /var/www/library/web/uploads/spend/aprilah.csv  
+parsing file /var/www/library/web/uploads/spend/aprilah.csv<br/>completed /var/www/library/web/uploads/spend/aprilah.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/augustad.csv file...
-Argument: /var/www/library/web/uploads/spend/augustad.csv
-starting /var/www/library/web/uploads/spend/augustad.csv  
-parsing file /var/www/library/web/uploads/spend/augustad.csv<br/>completed /var/www/library/web/uploads/spend/augustad.csv 
+Processing /var/www/library/web/uploads/spend/aprilai.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilai.csv
+starting /var/www/library/web/uploads/spend/aprilai.csv  
+parsing file /var/www/library/web/uploads/spend/aprilai.csv<br/>completed /var/www/library/web/uploads/spend/aprilai.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/augustae.csv file...
-Argument: /var/www/library/web/uploads/spend/augustae.csv
-starting /var/www/library/web/uploads/spend/augustae.csv  
-parsing file /var/www/library/web/uploads/spend/augustae.csv<br/>completed /var/www/library/web/uploads/spend/augustae.csv 
+Processing /var/www/library/web/uploads/spend/aprilaj.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilaj.csv
+starting /var/www/library/web/uploads/spend/aprilaj.csv  
+parsing file /var/www/library/web/uploads/spend/aprilaj.csv<br/>completed /var/www/library/web/uploads/spend/aprilaj.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_aa.csv file...
-Argument: /var/www/library/web/uploads/spend/data_aa.csv
-starting /var/www/library/web/uploads/spend/data_aa.csv  
-parsing file /var/www/library/web/uploads/spend/data_aa.csv<br/>completed /var/www/library/web/uploads/spend/data_aa.csv 
+Processing /var/www/library/web/uploads/spend/aprilak.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilak.csv
+starting /var/www/library/web/uploads/spend/aprilak.csv  
+parsing file /var/www/library/web/uploads/spend/aprilak.csv<br/>completed /var/www/library/web/uploads/spend/aprilak.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_ab.csv file...
-Argument: /var/www/library/web/uploads/spend/data_ab.csv
-starting /var/www/library/web/uploads/spend/data_ab.csv  
-parsing file /var/www/library/web/uploads/spend/data_ab.csv<br/>completed /var/www/library/web/uploads/spend/data_ab.csv 
+Processing /var/www/library/web/uploads/spend/aprilal.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilal.csv
+starting /var/www/library/web/uploads/spend/aprilal.csv  
+parsing file /var/www/library/web/uploads/spend/aprilal.csv<br/>completed /var/www/library/web/uploads/spend/aprilal.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_ac.csv file...
-Argument: /var/www/library/web/uploads/spend/data_ac.csv
-starting /var/www/library/web/uploads/spend/data_ac.csv  
-parsing file /var/www/library/web/uploads/spend/data_ac.csv<br/>completed /var/www/library/web/uploads/spend/data_ac.csv 
+Processing /var/www/library/web/uploads/spend/aprilam.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilam.csv
+starting /var/www/library/web/uploads/spend/aprilam.csv  
+parsing file /var/www/library/web/uploads/spend/aprilam.csv<br/>completed /var/www/library/web/uploads/spend/aprilam.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_ae.csv file...
-Argument: /var/www/library/web/uploads/spend/data_ae.csv
-starting /var/www/library/web/uploads/spend/data_ae.csv  
-parsing file /var/www/library/web/uploads/spend/data_ae.csv<br/>completed /var/www/library/web/uploads/spend/data_ae.csv 
+Processing /var/www/library/web/uploads/spend/aprilan.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilan.csv
+starting /var/www/library/web/uploads/spend/aprilan.csv  
+parsing file /var/www/library/web/uploads/spend/aprilan.csv<br/>completed /var/www/library/web/uploads/spend/aprilan.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_af.csv file...
-Argument: /var/www/library/web/uploads/spend/data_af.csv
-starting /var/www/library/web/uploads/spend/data_af.csv  
-parsing file /var/www/library/web/uploads/spend/data_af.csv<br/>completed /var/www/library/web/uploads/spend/data_af.csv 
+Processing /var/www/library/web/uploads/spend/aprilao.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilao.csv
+starting /var/www/library/web/uploads/spend/aprilao.csv  
+parsing file /var/www/library/web/uploads/spend/aprilao.csv<br/>completed /var/www/library/web/uploads/spend/aprilao.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_ah.csv file...
-Argument: /var/www/library/web/uploads/spend/data_ah.csv
-starting /var/www/library/web/uploads/spend/data_ah.csv  
-parsing file /var/www/library/web/uploads/spend/data_ah.csv<br/>completed /var/www/library/web/uploads/spend/data_ah.csv 
+Processing /var/www/library/web/uploads/spend/aprilap.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilap.csv
+starting /var/www/library/web/uploads/spend/aprilap.csv  
+parsing file /var/www/library/web/uploads/spend/aprilap.csv<br/>completed /var/www/library/web/uploads/spend/aprilap.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_ai.csv file...
-Argument: /var/www/library/web/uploads/spend/data_ai.csv
-starting /var/www/library/web/uploads/spend/data_ai.csv  
-parsing file /var/www/library/web/uploads/spend/data_ai.csv<br/>completed /var/www/library/web/uploads/spend/data_ai.csv 
+Processing /var/www/library/web/uploads/spend/aprilaq.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilaq.csv
+starting /var/www/library/web/uploads/spend/aprilaq.csv  
+parsing file /var/www/library/web/uploads/spend/aprilaq.csv<br/>completed /var/www/library/web/uploads/spend/aprilaq.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_aj.csv file...
-Argument: /var/www/library/web/uploads/spend/data_aj.csv
-starting /var/www/library/web/uploads/spend/data_aj.csv  
-parsing file /var/www/library/web/uploads/spend/data_aj.csv<br/>completed /var/www/library/web/uploads/spend/data_aj.csv 
+Processing /var/www/library/web/uploads/spend/aprilar.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilar.csv
+starting /var/www/library/web/uploads/spend/aprilar.csv  
+parsing file /var/www/library/web/uploads/spend/aprilar.csv<br/>completed /var/www/library/web/uploads/spend/aprilar.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_ak.csv file...
-Argument: /var/www/library/web/uploads/spend/data_ak.csv
-starting /var/www/library/web/uploads/spend/data_ak.csv  
-parsing file /var/www/library/web/uploads/spend/data_ak.csv<br/>completed /var/www/library/web/uploads/spend/data_ak.csv 
+Processing /var/www/library/web/uploads/spend/aprilas.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilas.csv
+starting /var/www/library/web/uploads/spend/aprilas.csv  
+parsing file /var/www/library/web/uploads/spend/aprilas.csv<br/>completed /var/www/library/web/uploads/spend/aprilas.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_al.csv file...
-Argument: /var/www/library/web/uploads/spend/data_al.csv
-starting /var/www/library/web/uploads/spend/data_al.csv  
-parsing file /var/www/library/web/uploads/spend/data_al.csv<br/>completed /var/www/library/web/uploads/spend/data_al.csv 
+Processing /var/www/library/web/uploads/spend/aprilat.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilat.csv
+starting /var/www/library/web/uploads/spend/aprilat.csv  
+parsing file /var/www/library/web/uploads/spend/aprilat.csv<br/>completed /var/www/library/web/uploads/spend/aprilat.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_am.csv file...
-Argument: /var/www/library/web/uploads/spend/data_am.csv
-starting /var/www/library/web/uploads/spend/data_am.csv  
-parsing file /var/www/library/web/uploads/spend/data_am.csv<br/>completed /var/www/library/web/uploads/spend/data_am.csv 
+Processing /var/www/library/web/uploads/spend/aprilau.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilau.csv
+starting /var/www/library/web/uploads/spend/aprilau.csv  
+parsing file /var/www/library/web/uploads/spend/aprilau.csv<br/>completed /var/www/library/web/uploads/spend/aprilau.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_an.csv file...
-Argument: /var/www/library/web/uploads/spend/data_an.csv
-starting /var/www/library/web/uploads/spend/data_an.csv  
-parsing file /var/www/library/web/uploads/spend/data_an.csv<br/>completed /var/www/library/web/uploads/spend/data_an.csv 
+Processing /var/www/library/web/uploads/spend/aprilav.csv file...
+Argument: /var/www/library/web/uploads/spend/aprilav.csv
+starting /var/www/library/web/uploads/spend/aprilav.csv  
+parsing file /var/www/library/web/uploads/spend/aprilav.csv<br/>completed /var/www/library/web/uploads/spend/aprilav.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_ao.csv file...
-Argument: /var/www/library/web/uploads/spend/data_ao.csv
-starting /var/www/library/web/uploads/spend/data_ao.csv  
-parsing file /var/www/library/web/uploads/spend/data_ao.csv<br/>completed /var/www/library/web/uploads/spend/data_ao.csv 
+Processing /var/www/library/web/uploads/spend/julyaa.csv file...
+Argument: /var/www/library/web/uploads/spend/julyaa.csv
+starting /var/www/library/web/uploads/spend/julyaa.csv  
+parsing file /var/www/library/web/uploads/spend/julyaa.csv<br/>completed /var/www/library/web/uploads/spend/julyaa.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_ap.csv file...
-Argument: /var/www/library/web/uploads/spend/data_ap.csv
-starting /var/www/library/web/uploads/spend/data_ap.csv  
-parsing file /var/www/library/web/uploads/spend/data_ap.csv<br/>completed /var/www/library/web/uploads/spend/data_ap.csv 
+Processing /var/www/library/web/uploads/spend/julyab.csv file...
+Argument: /var/www/library/web/uploads/spend/julyab.csv
+starting /var/www/library/web/uploads/spend/julyab.csv  
+parsing file /var/www/library/web/uploads/spend/julyab.csv<br/>completed /var/www/library/web/uploads/spend/julyab.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/data_aq.csv file...
-Argument: /var/www/library/web/uploads/spend/data_aq.csv
-starting /var/www/library/web/uploads/spend/data_aq.csv  
-parsing file /var/www/library/web/uploads/spend/data_aq.csv<br/>completed /var/www/library/web/uploads/spend/data_aq.csv 
+Processing /var/www/library/web/uploads/spend/julyac.csv file...
+Argument: /var/www/library/web/uploads/spend/julyac.csv
+starting /var/www/library/web/uploads/spend/julyac.csv  
+parsing file /var/www/library/web/uploads/spend/julyac.csv<br/>completed /var/www/library/web/uploads/spend/julyac.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/datasaa.csv file...
-Argument: /var/www/library/web/uploads/spend/datasaa.csv
-starting /var/www/library/web/uploads/spend/datasaa.csv  
-parsing file /var/www/library/web/uploads/spend/datasaa.csv<br/>completed /var/www/library/web/uploads/spend/datasaa.csv 
+Processing /var/www/library/web/uploads/spend/julyad.csv file...
+Argument: /var/www/library/web/uploads/spend/julyad.csv
+starting /var/www/library/web/uploads/spend/julyad.csv  
+parsing file /var/www/library/web/uploads/spend/julyad.csv<br/>completed /var/www/library/web/uploads/spend/julyad.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/datasab.csv file...
-Argument: /var/www/library/web/uploads/spend/datasab.csv
-starting /var/www/library/web/uploads/spend/datasab.csv  
-parsing file /var/www/library/web/uploads/spend/datasab.csv<br/>completed /var/www/library/web/uploads/spend/datasab.csv 
+Processing /var/www/library/web/uploads/spend/julyae.csv file...
+Argument: /var/www/library/web/uploads/spend/julyae.csv
+starting /var/www/library/web/uploads/spend/julyae.csv  
+parsing file /var/www/library/web/uploads/spend/julyae.csv<br/>completed /var/www/library/web/uploads/spend/julyae.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/dec10_2.csv file...
-Argument: /var/www/library/web/uploads/spend/dec10_2.csv
-starting /var/www/library/web/uploads/spend/dec10_2.csv  
-parsing file /var/www/library/web/uploads/spend/dec10_2.csv<br/>
-Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query/Tokenizer.php on line 307
-Processing /var/www/library/web/uploads/spend/decaa.csv file...
-Argument: /var/www/library/web/uploads/spend/decaa.csv
-starting /var/www/library/web/uploads/spend/decaa.csv  
-parsing file /var/www/library/web/uploads/spend/decaa.csv<br/>
-Fatal error: Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='' in /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php:1082
-Stack trace:
-#0 /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
-#1 /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php(1006): Doctrine_Connection_Statement->execute(Array)
-#2 /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query/Abstract.php(983): Doctrine_Connection->execute('SELECT s.id AS ...', Array)
-#3 /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query/Abstr in /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
-Processing /var/www/library/web/uploads/spend/decab.csv file...
-Argument: /var/www/library/web/uploads/spend/decab.csv
-starting /var/www/library/web/uploads/spend/decab.csv  
-parsing file /var/www/library/web/uploads/spend/decab.csv<br/>
-Fatal error: Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='' in /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php:1082
-Stack trace:
-#0 /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
-#1 /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php(1006): Doctrine_Connection_Statement->execute(Array)
-#2 /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query/Abstract.php(983): Doctrine_Connection->execute('SELECT s.id AS ...', Array)
-#3 /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query/Abstr in /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
-Processing /var/www/library/web/uploads/spend/decac.csv file...
-Argument: /var/www/library/web/uploads/spend/decac.csv
-starting /var/www/library/web/uploads/spend/decac.csv  
-parsing file /var/www/library/web/uploads/spend/decac.csv<br/>
-Notice: Undefined offset: 2 in /var/www/library/lib/loadspend.php on line 42
+Processing /var/www/library/web/uploads/spend/julyaf.csv file...
+Argument: /var/www/library/web/uploads/spend/julyaf.csv
+starting /var/www/library/web/uploads/spend/julyaf.csv  
+parsing file /var/www/library/web/uploads/spend/julyaf.csv<br/>completed /var/www/library/web/uploads/spend/julyaf.csv 
 
-Notice: Undefined offset: 1 in /var/www/library/lib/loadspend.php on line 44
 
-Notice: Undefined offset: 2 in /var/www/library/lib/loadspend.php on line 45
 
-Notice: Undefined offset: 5 in /var/www/library/lib/loadspend.php on line 49
+Processing /var/www/library/web/uploads/spend/julyag.csv file...
+Argument: /var/www/library/web/uploads/spend/julyag.csv
+starting /var/www/library/web/uploads/spend/julyag.csv  
+parsing file /var/www/library/web/uploads/spend/julyag.csv<br/>completed /var/www/library/web/uploads/spend/julyag.csv 
 
-Notice: Undefined offset: 5 in /var/www/library/lib/loadspend.php on line 50
 
-Notice: Undefined offset: 4 in /var/www/library/lib/loadspend.php on line 51
 
-Notice: Undefined offset: 3 in /var/www/library/lib/loadspend.php on line 52
+Processing /var/www/library/web/uploads/spend/julyah.csv file...
+Argument: /var/www/library/web/uploads/spend/julyah.csv
+starting /var/www/library/web/uploads/spend/julyah.csv  
+parsing file /var/www/library/web/uploads/spend/julyah.csv<br/>completed /var/www/library/web/uploads/spend/julyah.csv 
 
-Notice: Undefined offset: 6 in /var/www/library/lib/loadspend.php on line 53
 
-Notice: Undefined offset: 7 in /var/www/library/lib/loadspend.php on line 54
 
-Notice: Undefined offset: 8 in /var/www/library/lib/loadspend.php on line 55
+Processing /var/www/library/web/uploads/spend/julyai.csv file...
+Argument: /var/www/library/web/uploads/spend/julyai.csv
+starting /var/www/library/web/uploads/spend/julyai.csv  
+parsing file /var/www/library/web/uploads/spend/julyai.csv<br/>completed /var/www/library/web/uploads/spend/julyai.csv 
 
-Notice: Undefined offset: 5 in /var/www/library/lib/loadspend.php on line 59
 
-Notice: Undefined offset: 5 in /var/www/library/lib/loadspend.php on line 85
 
-Fatal error: Uncaught exception 'Doctrine_Table_Exception' with message 'You must specify the value to findOneBy' in /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:2824
-Stack trace:
-#0 [internal function]: Doctrine_Table->__call('findOneByName', Array)
-#1 /var/www/library/lib/loadspend.php(85): SupplieraliasTable->findOneByName(NULL)
-#2 /var/www/library/lib/loadspend.php(30): makestuff(Array)
-#3 {main}
-  thrown in /var/www/library/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php on line 2824
-Processing /var/www/library/web/uploads/spend/feb2aa.csv file...
-Argument: /var/www/library/web/uploads/spend/feb2aa.csv
-starting /var/www/library/web/uploads/spend/feb2aa.csv  
-parsing file /var/www/library/web/uploads/spend/feb2aa.csv<br/>completed /var/www/library/web/uploads/spend/feb2aa.csv 
+Processing /var/www/library/web/uploads/spend/julyaj.csv file...
+Argument: /var/www/library/web/uploads/spend/julyaj.csv
+starting /var/www/library/web/uploads/spend/julyaj.csv  
+parsing file /var/www/library/web/uploads/spend/julyaj.csv<br/>completed /var/www/library/web/uploads/spend/julyaj.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/feb2ab.csv file...
-Argument: /var/www/library/web/uploads/spend/feb2ab.csv
-starting /var/www/library/web/uploads/spend/feb2ab.csv  
-parsing file /var/www/library/web/uploads/spend/feb2ab.csv<br/>completed /var/www/library/web/uploads/spend/feb2ab.csv 
+Processing /var/www/library/web/uploads/spend/julyak.csv file...
+Argument: /var/www/library/web/uploads/spend/julyak.csv
+starting /var/www/library/web/uploads/spend/julyak.csv  
+parsing file /var/www/library/web/uploads/spend/julyak.csv<br/>completed /var/www/library/web/uploads/spend/julyak.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/feb2ac.csv file...
-Argument: /var/www/library/web/uploads/spend/feb2ac.csv
-starting /var/www/library/web/uploads/spend/feb2ac.csv  
-parsing file /var/www/library/web/uploads/spend/feb2ac.csv<br/>completed /var/www/library/web/uploads/spend/feb2ac.csv 
+Processing /var/www/library/web/uploads/spend/julyal.csv file...
+Argument: /var/www/library/web/uploads/spend/julyal.csv
+starting /var/www/library/web/uploads/spend/julyal.csv  
+parsing file /var/www/library/web/uploads/spend/julyal.csv<br/>completed /var/www/library/web/uploads/spend/julyal.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/feb2ad.csv file...
-Argument: /var/www/library/web/uploads/spend/feb2ad.csv
-starting /var/www/library/web/uploads/spend/feb2ad.csv  
-parsing file /var/www/library/web/uploads/spend/feb2ad.csv<br/>completed /var/www/library/web/uploads/spend/feb2ad.csv 
+Processing /var/www/library/web/uploads/spend/julyam.csv file...
+Argument: /var/www/library/web/uploads/spend/julyam.csv
+starting /var/www/library/web/uploads/spend/julyam.csv  
+parsing file /var/www/library/web/uploads/spend/julyam.csv<br/>completed /var/www/library/web/uploads/spend/julyam.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/feb3aa.csv file...
-Argument: /var/www/library/web/uploads/spend/feb3aa.csv
-starting /var/www/library/web/uploads/spend/feb3aa.csv  
-parsing file /var/www/library/web/uploads/spend/feb3aa.csv<br/>completed /var/www/library/web/uploads/spend/feb3aa.csv 
+Processing /var/www/library/web/uploads/spend/julyan.csv file...
+Argument: /var/www/library/web/uploads/spend/julyan.csv
+starting /var/www/library/web/uploads/spend/julyan.csv  
+parsing file /var/www/library/web/uploads/spend/julyan.csv<br/>completed /var/www/library/web/uploads/spend/julyan.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/feb3ab.csv file...
-Argument: /var/www/library/web/uploads/spend/feb3ab.csv
-starting /var/www/library/web/uploads/spend/feb3ab.csv  
-parsing file /var/www/library/web/uploads/spend/feb3ab.csv<br/>completed /var/www/library/web/uploads/spend/feb3ab.csv 
+Processing /var/www/library/web/uploads/spend/julyao.csv file...
+Argument: /var/www/library/web/uploads/spend/julyao.csv
+starting /var/www/library/web/uploads/spend/julyao.csv  
+parsing file /var/www/library/web/uploads/spend/julyao.csv<br/>completed /var/www/library/web/uploads/spend/julyao.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/feb3ac.csv file...
-Argument: /var/www/library/web/uploads/spend/feb3ac.csv
-starting /var/www/library/web/uploads/spend/feb3ac.csv  
-parsing file /var/www/library/web/uploads/spend/feb3ac.csv<br/>completed /var/www/library/web/uploads/spend/feb3ac.csv 
+Processing /var/www/library/web/uploads/spend/julyap.csv file...
+Argument: /var/www/library/web/uploads/spend/julyap.csv
+starting /var/www/library/web/uploads/spend/julyap.csv  
+parsing file /var/www/library/web/uploads/spend/julyap.csv<br/>completed /var/www/library/web/uploads/spend/julyap.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/feb3ad.csv file...
-Argument: /var/www/library/web/uploads/spend/feb3ad.csv
-starting /var/www/library/web/uploads/spend/feb3ad.csv  
-parsing file /var/www/library/web/uploads/spend/feb3ad.csv<br/>completed /var/www/library/web/uploads/spend/feb3ad.csv 
+Processing /var/www/library/web/uploads/spend/julyaq.csv file...
+Argument: /var/www/library/web/uploads/spend/julyaq.csv
+starting /var/www/library/web/uploads/spend/julyaq.csv  
+parsing file /var/www/library/web/uploads/spend/julyaq.csv<br/>completed /var/www/library/web/uploads/spend/julyaq.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/febaa.csv file...
-Argument: /var/www/library/web/uploads/spend/febaa.csv
-starting /var/www/library/web/uploads/spend/febaa.csv  
-parsing file /var/www/library/web/uploads/spend/febaa.csv<br/>completed /var/www/library/web/uploads/spend/febaa.csv 
+Processing /var/www/library/web/uploads/spend/julyar.csv file...
+Argument: /var/www/library/web/uploads/spend/julyar.csv
+starting /var/www/library/web/uploads/spend/julyar.csv  
+parsing file /var/www/library/web/uploads/spend/julyar.csv<br/>completed /var/www/library/web/uploads/spend/julyar.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/febab.csv file...
-Argument: /var/www/library/web/uploads/spend/febab.csv
-starting /var/www/library/web/uploads/spend/febab.csv  
-parsing file /var/www/library/web/uploads/spend/febab.csv<br/>completed /var/www/library/web/uploads/spend/febab.csv 
+Processing /var/www/library/web/uploads/spend/julyas.csv file...
+Argument: /var/www/library/web/uploads/spend/julyas.csv
+starting /var/www/library/web/uploads/spend/julyas.csv  
+parsing file /var/www/library/web/uploads/spend/julyas.csv<br/>completed /var/www/library/web/uploads/spend/julyas.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/febac.csv file...
-Argument: /var/www/library/web/uploads/spend/febac.csv
-starting /var/www/library/web/uploads/spend/febac.csv  
-parsing file /var/www/library/web/uploads/spend/febac.csv<br/>completed /var/www/library/web/uploads/spend/febac.csv 
+Processing /var/www/library/web/uploads/spend/julyat.csv file...
+Argument: /var/www/library/web/uploads/spend/julyat.csv
+starting /var/www/library/web/uploads/spend/julyat.csv  
+parsing file /var/www/library/web/uploads/spend/julyat.csv<br/>completed /var/www/library/web/uploads/spend/julyat.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul1aa.csv file...
-Argument: /var/www/library/web/uploads/spend/jul1aa.csv
-starting /var/www/library/web/uploads/spend/jul1aa.csv  
-parsing file /var/www/library/web/uploads/spend/jul1aa.csv<br/>completed /var/www/library/web/uploads/spend/jul1aa.csv 
+Processing /var/www/library/web/uploads/spend/julyau.csv file...
+Argument: /var/www/library/web/uploads/spend/julyau.csv
+starting /var/www/library/web/uploads/spend/julyau.csv  
+parsing file /var/www/library/web/uploads/spend/julyau.csv<br/>completed /var/www/library/web/uploads/spend/julyau.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul1ab.csv file...
-Argument: /var/www/library/web/uploads/spend/jul1ab.csv
-starting /var/www/library/web/uploads/spend/jul1ab.csv  
-parsing file /var/www/library/web/uploads/spend/jul1ab.csv<br/>completed /var/www/library/web/uploads/spend/jul1ab.csv 
+Processing /var/www/library/web/uploads/spend/julyav.csv file...
+Argument: /var/www/library/web/uploads/spend/julyav.csv
+starting /var/www/library/web/uploads/spend/julyav.csv  
+parsing file /var/www/library/web/uploads/spend/julyav.csv<br/>completed /var/www/library/web/uploads/spend/julyav.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul1ac.csv file...
-Argument: /var/www/library/web/uploads/spend/jul1ac.csv
-starting /var/www/library/web/uploads/spend/jul1ac.csv  
-parsing file /var/www/library/web/uploads/spend/jul1ac.csv<br/>completed /var/www/library/web/uploads/spend/jul1ac.csv 
+Processing /var/www/library/web/uploads/spend/julyaw.csv file...
+Argument: /var/www/library/web/uploads/spend/julyaw.csv
+starting /var/www/library/web/uploads/spend/julyaw.csv  
+parsing file /var/www/library/web/uploads/spend/julyaw.csv<br/>completed /var/www/library/web/uploads/spend/julyaw.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul1ad.csv file...
-Argument: /var/www/library/web/uploads/spend/jul1ad.csv
-starting /var/www/library/web/uploads/spend/jul1ad.csv  
-parsing file /var/www/library/web/uploads/spend/jul1ad.csv<br/>completed /var/www/library/web/uploads/spend/jul1ad.csv 
+Processing /var/www/library/web/uploads/spend/julyax.csv file...
+Argument: /var/www/library/web/uploads/spend/julyax.csv
+starting /var/www/library/web/uploads/spend/julyax.csv  
+parsing file /var/www/library/web/uploads/spend/julyax.csv<br/>completed /var/www/library/web/uploads/spend/julyax.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul2aa.csv file...
-Argument: /var/www/library/web/uploads/spend/jul2aa.csv
-starting /var/www/library/web/uploads/spend/jul2aa.csv  
-parsing file /var/www/library/web/uploads/spend/jul2aa.csv<br/>completed /var/www/library/web/uploads/spend/jul2aa.csv 
+Processing /var/www/library/web/uploads/spend/julyay.csv file...
+Argument: /var/www/library/web/uploads/spend/julyay.csv
+starting /var/www/library/web/uploads/spend/julyay.csv  
+parsing file /var/www/library/web/uploads/spend/julyay.csv<br/>completed /var/www/library/web/uploads/spend/julyay.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul2ab.csv file...
-Argument: /var/www/library/web/uploads/spend/jul2ab.csv
-starting /var/www/library/web/uploads/spend/jul2ab.csv  
-parsing file /var/www/library/web/uploads/spend/jul2ab.csv<br/>completed /var/www/library/web/uploads/spend/jul2ab.csv 
+Processing /var/www/library/web/uploads/spend/julyaz.csv file...
+Argument: /var/www/library/web/uploads/spend/julyaz.csv
+starting /var/www/library/web/uploads/spend/julyaz.csv  
+parsing file /var/www/library/web/uploads/spend/julyaz.csv<br/>completed /var/www/library/web/uploads/spend/julyaz.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul2ac.csv file...
-Argument: /var/www/library/web/uploads/spend/jul2ac.csv
-starting /var/www/library/web/uploads/spend/jul2ac.csv  
-parsing file /var/www/library/web/uploads/spend/jul2ac.csv<br/>completed /var/www/library/web/uploads/spend/jul2ac.csv 
+Processing /var/www/library/web/uploads/spend/julyba.csv file...
+Argument: /var/www/library/web/uploads/spend/julyba.csv
+starting /var/www/library/web/uploads/spend/julyba.csv  
+parsing file /var/www/library/web/uploads/spend/julyba.csv<br/>completed /var/www/library/web/uploads/spend/julyba.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul2ad.csv file...
-Argument: /var/www/library/web/uploads/spend/jul2ad.csv
-starting /var/www/library/web/uploads/spend/jul2ad.csv  
-parsing file /var/www/library/web/uploads/spend/jul2ad.csv<br/>completed /var/www/library/web/uploads/spend/jul2ad.csv 
+Processing /var/www/library/web/uploads/spend/julybb.csv file...
+Argument: /var/www/library/web/uploads/spend/julybb.csv
+starting /var/www/library/web/uploads/spend/julybb.csv  
+parsing file /var/www/library/web/uploads/spend/julybb.csv<br/>completed /var/www/library/web/uploads/spend/julybb.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul2ae.csv file...
-Argument: /var/www/library/web/uploads/spend/jul2ae.csv
-starting /var/www/library/web/uploads/spend/jul2ae.csv  
-parsing file /var/www/library/web/uploads/spend/jul2ae.csv<br/>completed /var/www/library/web/uploads/spend/jul2ae.csv 
+Processing /var/www/library/web/uploads/spend/julybc.csv file...
+Argument: /var/www/library/web/uploads/spend/julybc.csv
+starting /var/www/library/web/uploads/spend/julybc.csv  
+parsing file /var/www/library/web/uploads/spend/julybc.csv<br/>completed /var/www/library/web/uploads/spend/julybc.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul3aa.csv file...
-Argument: /var/www/library/web/uploads/spend/jul3aa.csv
-starting /var/www/library/web/uploads/spend/jul3aa.csv  
-parsing file /var/www/library/web/uploads/spend/jul3aa.csv<br/>completed /var/www/library/web/uploads/spend/jul3aa.csv 
+Processing /var/www/library/web/uploads/spend/julybd.csv file...
+Argument: /var/www/library/web/uploads/spend/julybd.csv
+starting /var/www/library/web/uploads/spend/julybd.csv  
+parsing file /var/www/library/web/uploads/spend/julybd.csv<br/>completed /var/www/library/web/uploads/spend/julybd.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul3ab.csv file...
-Argument: /var/www/library/web/uploads/spend/jul3ab.csv
-starting /var/www/library/web/uploads/spend/jul3ab.csv  
-parsing file /var/www/library/web/uploads/spend/jul3ab.csv<br/>completed /var/www/library/web/uploads/spend/jul3ab.csv 
+Processing /var/www/library/web/uploads/spend/julybe.csv file...
+Argument: /var/www/library/web/uploads/spend/julybe.csv
+starting /var/www/library/web/uploads/spend/julybe.csv  
+parsing file /var/www/library/web/uploads/spend/julybe.csv<br/>completed /var/www/library/web/uploads/spend/julybe.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul3ac.csv file...
-Argument: /var/www/library/web/uploads/spend/jul3ac.csv
-starting /var/www/library/web/uploads/spend/jul3ac.csv  
-parsing file /var/www/library/web/uploads/spend/jul3ac.csv<br/>completed /var/www/library/web/uploads/spend/jul3ac.csv 
+Processing /var/www/library/web/uploads/spend/julybf.csv file...
+Argument: /var/www/library/web/uploads/spend/julybf.csv
+starting /var/www/library/web/uploads/spend/julybf.csv  
+parsing file /var/www/library/web/uploads/spend/julybf.csv<br/>completed /var/www/library/web/uploads/spend/julybf.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul3ad.csv file...
-Argument: /var/www/library/web/uploads/spend/jul3ad.csv
-starting /var/www/library/web/uploads/spend/jul3ad.csv  
-parsing file /var/www/library/web/uploads/spend/jul3ad.csv<br/>completed /var/www/library/web/uploads/spend/jul3ad.csv 
+Processing /var/www/library/web/uploads/spend/julybg.csv file...
+Argument: /var/www/library/web/uploads/spend/julybg.csv
+starting /var/www/library/web/uploads/spend/julybg.csv  
+parsing file /var/www/library/web/uploads/spend/julybg.csv<br/>completed /var/www/library/web/uploads/spend/julybg.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul3ae.csv file...
-Argument: /var/www/library/web/uploads/spend/jul3ae.csv
-starting /var/www/library/web/uploads/spend/jul3ae.csv  
-parsing file /var/www/library/web/uploads/spend/jul3ae.csv<br/>completed /var/www/library/web/uploads/spend/jul3ae.csv 
+Processing /var/www/library/web/uploads/spend/juneaa.csv file...
+Argument: /var/www/library/web/uploads/spend/juneaa.csv
+starting /var/www/library/web/uploads/spend/juneaa.csv  
+parsing file /var/www/library/web/uploads/spend/juneaa.csv<br/>completed /var/www/library/web/uploads/spend/juneaa.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul3af.csv file...
-Argument: /var/www/library/web/uploads/spend/jul3af.csv
-starting /var/www/library/web/uploads/spend/jul3af.csv  
-parsing file /var/www/library/web/uploads/spend/jul3af.csv<br/>completed /var/www/library/web/uploads/spend/jul3af.csv 
+Processing /var/www/library/web/uploads/spend/juneab.csv file...
+Argument: /var/www/library/web/uploads/spend/juneab.csv
+starting /var/www/library/web/uploads/spend/juneab.csv  
+parsing file /var/www/library/web/uploads/spend/juneab.csv<br/>completed /var/www/library/web/uploads/spend/juneab.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul4aa.csv file...
-Argument: /var/www/library/web/uploads/spend/jul4aa.csv
-starting /var/www/library/web/uploads/spend/jul4aa.csv  
-parsing file /var/www/library/web/uploads/spend/jul4aa.csv<br/>completed /var/www/library/web/uploads/spend/jul4aa.csv 
+Processing /var/www/library/web/uploads/spend/juneac.csv file...
+Argument: /var/www/library/web/uploads/spend/juneac.csv
+starting /var/www/library/web/uploads/spend/juneac.csv  
+parsing file /var/www/library/web/uploads/spend/juneac.csv<br/>completed /var/www/library/web/uploads/spend/juneac.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul4ab.csv file...
-Argument: /var/www/library/web/uploads/spend/jul4ab.csv
-starting /var/www/library/web/uploads/spend/jul4ab.csv  
-parsing file /var/www/library/web/uploads/spend/jul4ab.csv<br/>completed /var/www/library/web/uploads/spend/jul4ab.csv 
+Processing /var/www/library/web/uploads/spend/junead.csv file...
+Argument: /var/www/library/web/uploads/spend/junead.csv
+starting /var/www/library/web/uploads/spend/junead.csv  
+parsing file /var/www/library/web/uploads/spend/junead.csv<br/>completed /var/www/library/web/uploads/spend/junead.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul4ac.csv file...
-Argument: /var/www/library/web/uploads/spend/jul4ac.csv
-starting /var/www/library/web/uploads/spend/jul4ac.csv  
-parsing file /var/www/library/web/uploads/spend/jul4ac.csv<br/>completed /var/www/library/web/uploads/spend/jul4ac.csv 
+Processing /var/www/library/web/uploads/spend/juneae.csv file...
+Argument: /var/www/library/web/uploads/spend/juneae.csv
+starting /var/www/library/web/uploads/spend/juneae.csv  
+parsing file /var/www/library/web/uploads/spend/juneae.csv<br/>completed /var/www/library/web/uploads/spend/juneae.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul4ad.csv file...
-Argument: /var/www/library/web/uploads/spend/jul4ad.csv
-starting /var/www/library/web/uploads/spend/jul4ad.csv  
-parsing file /var/www/library/web/uploads/spend/jul4ad.csv<br/>completed /var/www/library/web/uploads/spend/jul4ad.csv 
+Processing /var/www/library/web/uploads/spend/juneaf.csv file...
+Argument: /var/www/library/web/uploads/spend/juneaf.csv
+starting /var/www/library/web/uploads/spend/juneaf.csv  
+parsing file /var/www/library/web/uploads/spend/juneaf.csv<br/>completed /var/www/library/web/uploads/spend/juneaf.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul4ae.csv file...
-Argument: /var/www/library/web/uploads/spend/jul4ae.csv
-starting /var/www/library/web/uploads/spend/jul4ae.csv  
-parsing file /var/www/library/web/uploads/spend/jul4ae.csv<br/>completed /var/www/library/web/uploads/spend/jul4ae.csv 
+Processing /var/www/library/web/uploads/spend/juneag.csv file...
+Argument: /var/www/library/web/uploads/spend/juneag.csv
+starting /var/www/library/web/uploads/spend/juneag.csv  
+parsing file /var/www/library/web/uploads/spend/juneag.csv<br/>completed /var/www/library/web/uploads/spend/juneag.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul5ab.csv file...
-Argument: /var/www/library/web/uploads/spend/jul5ab.csv
-starting /var/www/library/web/uploads/spend/jul5ab.csv  
-parsing file /var/www/library/web/uploads/spend/jul5ab.csv<br/>completed /var/www/library/web/uploads/spend/jul5ab.csv 
+Processing /var/www/library/web/uploads/spend/juneah.csv file...
+Argument: /var/www/library/web/uploads/spend/juneah.csv
+starting /var/www/library/web/uploads/spend/juneah.csv  
+parsing file /var/www/library/web/uploads/spend/juneah.csv<br/>completed /var/www/library/web/uploads/spend/juneah.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul5ac.csv file...
-Argument: /var/www/library/web/uploads/spend/jul5ac.csv
-starting /var/www/library/web/uploads/spend/jul5ac.csv  
-parsing file /var/www/library/web/uploads/spend/jul5ac.csv<br/>completed /var/www/library/web/uploads/spend/jul5ac.csv 
+Processing /var/www/library/web/uploads/spend/juneai.csv file...
+Argument: /var/www/library/web/uploads/spend/juneai.csv
+starting /var/www/library/web/uploads/spend/juneai.csv  
+parsing file /var/www/library/web/uploads/spend/juneai.csv<br/>completed /var/www/library/web/uploads/spend/juneai.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul5ad.csv file...
-Argument: /var/www/library/web/uploads/spend/jul5ad.csv
-starting /var/www/library/web/uploads/spend/jul5ad.csv  
-parsing file /var/www/library/web/uploads/spend/jul5ad.csv<br/>completed /var/www/library/web/uploads/spend/jul5ad.csv 
+Processing /var/www/library/web/uploads/spend/juneaj.csv file...
+Argument: /var/www/library/web/uploads/spend/juneaj.csv
+starting /var/www/library/web/uploads/spend/juneaj.csv  
+parsing file /var/www/library/web/uploads/spend/juneaj.csv<br/>completed /var/www/library/web/uploads/spend/juneaj.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul5ae.csv file...
-Argument: /var/www/library/web/uploads/spend/jul5ae.csv
-starting /var/www/library/web/uploads/spend/jul5ae.csv  
-parsing file /var/www/library/web/uploads/spend/jul5ae.csv<br/>completed /var/www/library/web/uploads/spend/jul5ae.csv 
+Processing /var/www/library/web/uploads/spend/juneak.csv file...
+Argument: /var/www/library/web/uploads/spend/juneak.csv
+starting /var/www/library/web/uploads/spend/juneak.csv  
+parsing file /var/www/library/web/uploads/spend/juneak.csv<br/>completed /var/www/library/web/uploads/spend/juneak.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul5af.csv file...
-Argument: /var/www/library/web/uploads/spend/jul5af.csv
-starting /var/www/library/web/uploads/spend/jul5af.csv  
-parsing file /var/www/library/web/uploads/spend/jul5af.csv<br/>completed /var/www/library/web/uploads/spend/jul5af.csv 
+Processing /var/www/library/web/uploads/spend/juneal.csv file...
+Argument: /var/www/library/web/uploads/spend/juneal.csv
+starting /var/www/library/web/uploads/spend/juneal.csv  
+parsing file /var/www/library/web/uploads/spend/juneal.csv<br/>completed /var/www/library/web/uploads/spend/juneal.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul6aa.csv file...
-Argument: /var/www/library/web/uploads/spend/jul6aa.csv
-starting /var/www/library/web/uploads/spend/jul6aa.csv  
-parsing file /var/www/library/web/uploads/spend/jul6aa.csv<br/>completed /var/www/library/web/uploads/spend/jul6aa.csv 
+Processing /var/www/library/web/uploads/spend/juneam.csv file...
+Argument: /var/www/library/web/uploads/spend/juneam.csv
+starting /var/www/library/web/uploads/spend/juneam.csv  
+parsing file /var/www/library/web/uploads/spend/juneam.csv<br/>completed /var/www/library/web/uploads/spend/juneam.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul6ab.csv file...
-Argument: /var/www/library/web/uploads/spend/jul6ab.csv
-starting /var/www/library/web/uploads/spend/jul6ab.csv  
-parsing file /var/www/library/web/uploads/spend/jul6ab.csv<br/>completed /var/www/library/web/uploads/spend/jul6ab.csv 
+Processing /var/www/library/web/uploads/spend/junean.csv file...
+Argument: /var/www/library/web/uploads/spend/junean.csv
+starting /var/www/library/web/uploads/spend/junean.csv  
+parsing file /var/www/library/web/uploads/spend/junean.csv<br/>completed /var/www/library/web/uploads/spend/junean.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul6ac.csv file...
-Argument: /var/www/library/web/uploads/spend/jul6ac.csv
-starting /var/www/library/web/uploads/spend/jul6ac.csv  
-parsing file /var/www/library/web/uploads/spend/jul6ac.csv<br/>completed /var/www/library/web/uploads/spend/jul6ac.csv 
+Processing /var/www/library/web/uploads/spend/juneao.csv file...
+Argument: /var/www/library/web/uploads/spend/juneao.csv
+starting /var/www/library/web/uploads/spend/juneao.csv  
+parsing file /var/www/library/web/uploads/spend/juneao.csv<br/>completed /var/www/library/web/uploads/spend/juneao.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul6ad.csv file...
-Argument: /var/www/library/web/uploads/spend/jul6ad.csv
-starting /var/www/library/web/uploads/spend/jul6ad.csv  
-parsing file /var/www/library/web/uploads/spend/jul6ad.csv<br/>completed /var/www/library/web/uploads/spend/jul6ad.csv 
+Processing /var/www/library/web/uploads/spend/juneap.csv file...
+Argument: /var/www/library/web/uploads/spend/juneap.csv
+starting /var/www/library/web/uploads/spend/juneap.csv  
+parsing file /var/www/library/web/uploads/spend/juneap.csv<br/>completed /var/www/library/web/uploads/spend/juneap.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul6ae.csv file...
-Argument: /var/www/library/web/uploads/spend/jul6ae.csv
-starting /var/www/library/web/uploads/spend/jul6ae.csv  
-parsing file /var/www/library/web/uploads/spend/jul6ae.csv<br/>completed /var/www/library/web/uploads/spend/jul6ae.csv 
+Processing /var/www/library/web/uploads/spend/juneaq.csv file...
+Argument: /var/www/library/web/uploads/spend/juneaq.csv
+starting /var/www/library/web/uploads/spend/juneaq.csv  
+parsing file /var/www/library/web/uploads/spend/juneaq.csv<br/>completed /var/www/library/web/uploads/spend/juneaq.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul7aa.csv file...
-Argument: /var/www/library/web/uploads/spend/jul7aa.csv
-starting /var/www/library/web/uploads/spend/jul7aa.csv  
-parsing file /var/www/library/web/uploads/spend/jul7aa.csv<br/>completed /var/www/library/web/uploads/spend/jul7aa.csv 
+Processing /var/www/library/web/uploads/spend/junear.csv file...
+Argument: /var/www/library/web/uploads/spend/junear.csv
+starting /var/www/library/web/uploads/spend/junear.csv  
+parsing file /var/www/library/web/uploads/spend/junear.csv<br/>completed /var/www/library/web/uploads/spend/junear.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul7ab.csv file...
-Argument: /var/www/library/web/uploads/spend/jul7ab.csv
-starting /var/www/library/web/uploads/spend/jul7ab.csv  
-parsing file /var/www/library/web/uploads/spend/jul7ab.csv<br/>completed /var/www/library/web/uploads/spend/jul7ab.csv 
+Processing /var/www/library/web/uploads/spend/juneas.csv file...
+Argument: /var/www/library/web/uploads/spend/juneas.csv
+starting /var/www/library/web/uploads/spend/juneas.csv  
+parsing file /var/www/library/web/uploads/spend/juneas.csv<br/>completed /var/www/library/web/uploads/spend/juneas.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul7ac.csv file...
-Argument: /var/www/library/web/uploads/spend/jul7ac.csv
-starting /var/www/library/web/uploads/spend/jul7ac.csv  
-parsing file /var/www/library/web/uploads/spend/jul7ac.csv<br/>completed /var/www/library/web/uploads/spend/jul7ac.csv 
+Processing /var/www/library/web/uploads/spend/juneat.csv file...
+Argument: /var/www/library/web/uploads/spend/juneat.csv
+starting /var/www/library/web/uploads/spend/juneat.csv  
+parsing file /var/www/library/web/uploads/spend/juneat.csv<br/>completed /var/www/library/web/uploads/spend/juneat.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/jul7ad.csv file...
-Argument: /var/www/library/web/uploads/spend/jul7ad.csv
-starting /var/www/library/web/uploads/spend/jul7ad.csv  
-parsing file /var/www/library/web/uploads/spend/jul7ad.csv<br/>completed /var/www/library/web/uploads/spend/jul7ad.csv 
+Processing /var/www/library/web/uploads/spend/juneau.csv file...
+Argument: /var/www/library/web/uploads/spend/juneau.csv
+starting /var/www/library/web/uploads/spend/juneau.csv  
+parsing file /var/www/library/web/uploads/spend/juneau.csv<br/>completed /var/www/library/web/uploads/spend/juneau.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/xaa.csv file...
-Argument: /var/www/library/web/uploads/spend/xaa.csv
-starting /var/www/library/web/uploads/spend/xaa.csv  
-parsing file /var/www/library/web/uploads/spend/xaa.csv<br/>completed /var/www/library/web/uploads/spend/xaa.csv 
+Processing /var/www/library/web/uploads/spend/juneav.csv file...
+Argument: /var/www/library/web/uploads/spend/juneav.csv
+starting /var/www/library/web/uploads/spend/juneav.csv  
+parsing file /var/www/library/web/uploads/spend/juneav.csv<br/>completed /var/www/library/web/uploads/spend/juneav.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/xab.csv file...
-Argument: /var/www/library/web/uploads/spend/xab.csv
-starting /var/www/library/web/uploads/spend/xab.csv  
-parsing file /var/www/library/web/uploads/spend/xab.csv<br/>completed /var/www/library/web/uploads/spend/xab.csv 
+Processing /var/www/library/web/uploads/spend/juneaw.csv file...
+Argument: /var/www/library/web/uploads/spend/juneaw.csv
+starting /var/www/library/web/uploads/spend/juneaw.csv  
+parsing file /var/www/library/web/uploads/spend/juneaw.csv<br/>completed /var/www/library/web/uploads/spend/juneaw.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/xac.csv file...
-Argument: /var/www/library/web/uploads/spend/xac.csv
-starting /var/www/library/web/uploads/spend/xac.csv  
-parsing file /var/www/library/web/uploads/spend/xac.csv<br/>completed /var/www/library/web/uploads/spend/xac.csv 
+Processing /var/www/library/web/uploads/spend/juneax.csv file...
+Argument: /var/www/library/web/uploads/spend/juneax.csv
+starting /var/www/library/web/uploads/spend/juneax.csv  
+parsing file /var/www/library/web/uploads/spend/juneax.csv<br/>completed /var/www/library/web/uploads/spend/juneax.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/xad.csv file...
-Argument: /var/www/library/web/uploads/spend/xad.csv
-starting /var/www/library/web/uploads/spend/xad.csv  
-parsing file /var/www/library/web/uploads/spend/xad.csv<br/>completed /var/www/library/web/uploads/spend/xad.csv 
+Processing /var/www/library/web/uploads/spend/juneay.csv file...
+Argument: /var/www/library/web/uploads/spend/juneay.csv
+starting /var/www/library/web/uploads/spend/juneay.csv  
+parsing file /var/www/library/web/uploads/spend/juneay.csv<br/>completed /var/www/library/web/uploads/spend/juneay.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/xae.csv file...
-Argument: /var/www/library/web/uploads/spend/xae.csv
-starting /var/www/library/web/uploads/spend/xae.csv  
-parsing file /var/www/library/web/uploads/spend/xae.csv<br/>completed /var/www/library/web/uploads/spend/xae.csv 
+Processing /var/www/library/web/uploads/spend/juneaz.csv file...
+Argument: /var/www/library/web/uploads/spend/juneaz.csv
+starting /var/www/library/web/uploads/spend/juneaz.csv  
+parsing file /var/www/library/web/uploads/spend/juneaz.csv<br/>completed /var/www/library/web/uploads/spend/juneaz.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/xaf.csv file...
-Argument: /var/www/library/web/uploads/spend/xaf.csv
-starting /var/www/library/web/uploads/spend/xaf.csv  
-parsing file /var/www/library/web/uploads/spend/xaf.csv<br/>completed /var/www/library/web/uploads/spend/xaf.csv 
+Processing /var/www/library/web/uploads/spend/juneba.csv file...
+Argument: /var/www/library/web/uploads/spend/juneba.csv
+starting /var/www/library/web/uploads/spend/juneba.csv  
+parsing file /var/www/library/web/uploads/spend/juneba.csv<br/>completed /var/www/library/web/uploads/spend/juneba.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/xag.csv file...
-Argument: /var/www/library/web/uploads/spend/xag.csv
-starting /var/www/library/web/uploads/spend/xag.csv  
-parsing file /var/www/library/web/uploads/spend/xag.csv<br/>completed /var/www/library/web/uploads/spend/xag.csv 
+Processing /var/www/library/web/uploads/spend/junebb.csv file...
+Argument: /var/www/library/web/uploads/spend/junebb.csv
+starting /var/www/library/web/uploads/spend/junebb.csv  
+parsing file /var/www/library/web/uploads/spend/junebb.csv<br/>completed /var/www/library/web/uploads/spend/junebb.csv 
 
 
 
-Processing /var/www/library/web/uploads/spend/yaa.csv file...
-Argument: /var/www/library/web/uploads/spend/yaa.csv
-starting /var/www/library/web/uploads/spend/yaa.csv  
-parsing file /var/www/library/web/uploads/spend/yaa.csv<br/>completed /var/www/library/web/uploads/spend/yaa.csv 
+Processing /var/www/library/web/uploads/spend/junebc.csv file...
+Argument: /var/www/library/web/uploads/spend/junebc.csv
+starting /var/www/library/web/uploads/spend/junebc.csv  
+parsing file /var/www/library/web/uploads/spend/junebc.csv<br/>completed /var/www/library/web/uploads/spend/junebc.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/junebd.csv file...
+Argument: /var/www/library/web/uploads/spend/junebd.csv
+starting /var/www/library/web/uploads/spend/junebd.csv  
+parsing file /var/www/library/web/uploads/spend/junebd.csv<br/>completed /var/www/library/web/uploads/spend/junebd.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/junebe.csv file...
+Argument: /var/www/library/web/uploads/spend/junebe.csv
+starting /var/www/library/web/uploads/spend/junebe.csv  
+parsing file /var/www/library/web/uploads/spend/junebe.csv<br/>completed /var/www/library/web/uploads/spend/junebe.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/junebf.csv file...
+Argument: /var/www/library/web/uploads/spend/junebf.csv
+starting /var/www/library/web/uploads/spend/junebf.csv  
+parsing file /var/www/library/web/uploads/spend/junebf.csv<br/>completed /var/www/library/web/uploads/spend/junebf.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/junebg.csv file...
+Argument: /var/www/library/web/uploads/spend/junebg.csv
+starting /var/www/library/web/uploads/spend/junebg.csv  
+parsing file /var/www/library/web/uploads/spend/junebg.csv<br/>completed /var/www/library/web/uploads/spend/junebg.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchaa.csv file...
+Argument: /var/www/library/web/uploads/spend/marchaa.csv
+starting /var/www/library/web/uploads/spend/marchaa.csv  
+parsing file /var/www/library/web/uploads/spend/marchaa.csv<br/>completed /var/www/library/web/uploads/spend/marchaa.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchab.csv file...
+Argument: /var/www/library/web/uploads/spend/marchab.csv
+starting /var/www/library/web/uploads/spend/marchab.csv  
+parsing file /var/www/library/web/uploads/spend/marchab.csv<br/>completed /var/www/library/web/uploads/spend/marchab.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchac.csv file...
+Argument: /var/www/library/web/uploads/spend/marchac.csv
+starting /var/www/library/web/uploads/spend/marchac.csv  
+parsing file /var/www/library/web/uploads/spend/marchac.csv<br/>completed /var/www/library/web/uploads/spend/marchac.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchad.csv file...
+Argument: /var/www/library/web/uploads/spend/marchad.csv
+starting /var/www/library/web/uploads/spend/marchad.csv  
+parsing file /var/www/library/web/uploads/spend/marchad.csv<br/>completed /var/www/library/web/uploads/spend/marchad.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchae.csv file...
+Argument: /var/www/library/web/uploads/spend/marchae.csv
+starting /var/www/library/web/uploads/spend/marchae.csv  
+parsing file /var/www/library/web/uploads/spend/marchae.csv<br/>completed /var/www/library/web/uploads/spend/marchae.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchaf.csv file...
+Argument: /var/www/library/web/uploads/spend/marchaf.csv
+starting /var/www/library/web/uploads/spend/marchaf.csv  
+parsing file /var/www/library/web/uploads/spend/marchaf.csv<br/>completed /var/www/library/web/uploads/spend/marchaf.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchag.csv file...
+Argument: /var/www/library/web/uploads/spend/marchag.csv
+starting /var/www/library/web/uploads/spend/marchag.csv  
+parsing file /var/www/library/web/uploads/spend/marchag.csv<br/>completed /var/www/library/web/uploads/spend/marchag.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchah.csv file...
+Argument: /var/www/library/web/uploads/spend/marchah.csv
+starting /var/www/library/web/uploads/spend/marchah.csv  
+parsing file /var/www/library/web/uploads/spend/marchah.csv<br/>completed /var/www/library/web/uploads/spend/marchah.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchai.csv file...
+Argument: /var/www/library/web/uploads/spend/marchai.csv
+starting /var/www/library/web/uploads/spend/marchai.csv  
+parsing file /var/www/library/web/uploads/spend/marchai.csv<br/>completed /var/www/library/web/uploads/spend/marchai.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchaj.csv file...
+Argument: /var/www/library/web/uploads/spend/marchaj.csv
+starting /var/www/library/web/uploads/spend/marchaj.csv  
+parsing file /var/www/library/web/uploads/spend/marchaj.csv<br/>completed /var/www/library/web/uploads/spend/marchaj.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchak.csv file...
+Argument: /var/www/library/web/uploads/spend/marchak.csv
+starting /var/www/library/web/uploads/spend/marchak.csv  
+parsing file /var/www/library/web/uploads/spend/marchak.csv<br/>completed /var/www/library/web/uploads/spend/marchak.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchal.csv file...
+Argument: /var/www/library/web/uploads/spend/marchal.csv
+starting /var/www/library/web/uploads/spend/marchal.csv  
+parsing file /var/www/library/web/uploads/spend/marchal.csv<br/>completed /var/www/library/web/uploads/spend/marchal.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marcham.csv file...
+Argument: /var/www/library/web/uploads/spend/marcham.csv
+starting /var/www/library/web/uploads/spend/marcham.csv  
+parsing file /var/www/library/web/uploads/spend/marcham.csv<br/>completed /var/www/library/web/uploads/spend/marcham.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchan.csv file...
+Argument: /var/www/library/web/uploads/spend/marchan.csv
+starting /var/www/library/web/uploads/spend/marchan.csv  
+parsing file /var/www/library/web/uploads/spend/marchan.csv<br/>completed /var/www/library/web/uploads/spend/marchan.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchao.csv file...
+Argument: /var/www/library/web/uploads/spend/marchao.csv
+starting /var/www/library/web/uploads/spend/marchao.csv  
+parsing file /var/www/library/web/uploads/spend/marchao.csv<br/>completed /var/www/library/web/uploads/spend/marchao.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchap.csv file...
+Argument: /var/www/library/web/uploads/spend/marchap.csv
+starting /var/www/library/web/uploads/spend/marchap.csv  
+parsing file /var/www/library/web/uploads/spend/marchap.csv<br/>completed /var/www/library/web/uploads/spend/marchap.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchaq.csv file...
+Argument: /var/www/library/web/uploads/spend/marchaq.csv
+starting /var/www/library/web/uploads/spend/marchaq.csv  
+parsing file /var/www/library/web/uploads/spend/marchaq.csv<br/>completed /var/www/library/web/uploads/spend/marchaq.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchar.csv file...
+Argument: /var/www/library/web/uploads/spend/marchar.csv
+starting /var/www/library/web/uploads/spend/marchar.csv  
+parsing file /var/www/library/web/uploads/spend/marchar.csv<br/>completed /var/www/library/web/uploads/spend/marchar.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/marchas.csv file...
+Argument: /var/www/library/web/uploads/spend/marchas.csv
+starting /var/www/library/web/uploads/spend/marchas.csv  
+parsing file /var/www/library/web/uploads/spend/marchas.csv<br/>completed /var/www/library/web/uploads/spend/marchas.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayaa.csv file...
+Argument: /var/www/library/web/uploads/spend/mayaa.csv
+starting /var/www/library/web/uploads/spend/mayaa.csv  
+parsing file /var/www/library/web/uploads/spend/mayaa.csv<br/>completed /var/www/library/web/uploads/spend/mayaa.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayab.csv file...
+Argument: /var/www/library/web/uploads/spend/mayab.csv
+starting /var/www/library/web/uploads/spend/mayab.csv  
+parsing file /var/www/library/web/uploads/spend/mayab.csv<br/>completed /var/www/library/web/uploads/spend/mayab.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayac.csv file...
+Argument: /var/www/library/web/uploads/spend/mayac.csv
+starting /var/www/library/web/uploads/spend/mayac.csv  
+parsing file /var/www/library/web/uploads/spend/mayac.csv<br/>completed /var/www/library/web/uploads/spend/mayac.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayad.csv file...
+Argument: /var/www/library/web/uploads/spend/mayad.csv
+starting /var/www/library/web/uploads/spend/mayad.csv  
+parsing file /var/www/library/web/uploads/spend/mayad.csv<br/>completed /var/www/library/web/uploads/spend/mayad.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayae.csv file...
+Argument: /var/www/library/web/uploads/spend/mayae.csv
+starting /var/www/library/web/uploads/spend/mayae.csv  
+parsing file /var/www/library/web/uploads/spend/mayae.csv<br/>completed /var/www/library/web/uploads/spend/mayae.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayaf.csv file...
+Argument: /var/www/library/web/uploads/spend/mayaf.csv
+starting /var/www/library/web/uploads/spend/mayaf.csv  
+parsing file /var/www/library/web/uploads/spend/mayaf.csv<br/>completed /var/www/library/web/uploads/spend/mayaf.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayag.csv file...
+Argument: /var/www/library/web/uploads/spend/mayag.csv
+starting /var/www/library/web/uploads/spend/mayag.csv  
+parsing file /var/www/library/web/uploads/spend/mayag.csv<br/>completed /var/www/library/web/uploads/spend/mayag.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayah.csv file...
+Argument: /var/www/library/web/uploads/spend/mayah.csv
+starting /var/www/library/web/uploads/spend/mayah.csv  
+parsing file /var/www/library/web/uploads/spend/mayah.csv<br/>completed /var/www/library/web/uploads/spend/mayah.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayai.csv file...
+Argument: /var/www/library/web/uploads/spend/mayai.csv
+starting /var/www/library/web/uploads/spend/mayai.csv  
+parsing file /var/www/library/web/uploads/spend/mayai.csv<br/>completed /var/www/library/web/uploads/spend/mayai.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayaj.csv file...
+Argument: /var/www/library/web/uploads/spend/mayaj.csv
+starting /var/www/library/web/uploads/spend/mayaj.csv  
+parsing file /var/www/library/web/uploads/spend/mayaj.csv<br/>completed /var/www/library/web/uploads/spend/mayaj.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayak.csv file...
+Argument: /var/www/library/web/uploads/spend/mayak.csv
+starting /var/www/library/web/uploads/spend/mayak.csv  
+parsing file /var/www/library/web/uploads/spend/mayak.csv<br/>completed /var/www/library/web/uploads/spend/mayak.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayal.csv file...
+Argument: /var/www/library/web/uploads/spend/mayal.csv
+starting /var/www/library/web/uploads/spend/mayal.csv  
+parsing file /var/www/library/web/uploads/spend/mayal.csv<br/>completed /var/www/library/web/uploads/spend/mayal.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayam.csv file...
+Argument: /var/www/library/web/uploads/spend/mayam.csv
+starting /var/www/library/web/uploads/spend/mayam.csv  
+parsing file /var/www/library/web/uploads/spend/mayam.csv<br/>completed /var/www/library/web/uploads/spend/mayam.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayan.csv file...
+Argument: /var/www/library/web/uploads/spend/mayan.csv
+starting /var/www/library/web/uploads/spend/mayan.csv  
+parsing file /var/www/library/web/uploads/spend/mayan.csv<br/>completed /var/www/library/web/uploads/spend/mayan.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayao.csv file...
+Argument: /var/www/library/web/uploads/spend/mayao.csv
+starting /var/www/library/web/uploads/spend/mayao.csv  
+parsing file /var/www/library/web/uploads/spend/mayao.csv<br/>completed /var/www/library/web/uploads/spend/mayao.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayap.csv file...
+Argument: /var/www/library/web/uploads/spend/mayap.csv
+starting /var/www/library/web/uploads/spend/mayap.csv  
+parsing file /var/www/library/web/uploads/spend/mayap.csv<br/>completed /var/www/library/web/uploads/spend/mayap.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayaq.csv file...
+Argument: /var/www/library/web/uploads/spend/mayaq.csv
+starting /var/www/library/web/uploads/spend/mayaq.csv  
+parsing file /var/www/library/web/uploads/spend/mayaq.csv<br/>completed /var/www/library/web/uploads/spend/mayaq.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayar.csv file...
+Argument: /var/www/library/web/uploads/spend/mayar.csv
+starting /var/www/library/web/uploads/spend/mayar.csv  
+parsing file /var/www/library/web/uploads/spend/mayar.csv<br/>completed /var/www/library/web/uploads/spend/mayar.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayas.csv file...
+Argument: /var/www/library/web/uploads/spend/mayas.csv
+starting /var/www/library/web/uploads/spend/mayas.csv  
+parsing file /var/www/library/web/uploads/spend/mayas.csv<br/>completed /var/www/library/web/uploads/spend/mayas.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayat.csv file...
+Argument: /var/www/library/web/uploads/spend/mayat.csv
+starting /var/www/library/web/uploads/spend/mayat.csv  
+parsing file /var/www/library/web/uploads/spend/mayat.csv<br/>completed /var/www/library/web/uploads/spend/mayat.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayau.csv file...
+Argument: /var/www/library/web/uploads/spend/mayau.csv
+starting /var/www/library/web/uploads/spend/mayau.csv  
+parsing file /var/www/library/web/uploads/spend/mayau.csv<br/>completed /var/www/library/web/uploads/spend/mayau.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayav.csv file...
+Argument: /var/www/library/web/uploads/spend/mayav.csv
+starting /var/www/library/web/uploads/spend/mayav.csv  
+parsing file /var/www/library/web/uploads/spend/mayav.csv<br/>completed /var/www/library/web/uploads/spend/mayav.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayaw.csv file...
+Argument: /var/www/library/web/uploads/spend/mayaw.csv
+starting /var/www/library/web/uploads/spend/mayaw.csv  
+parsing file /var/www/library/web/uploads/spend/mayaw.csv<br/>completed /var/www/library/web/uploads/spend/mayaw.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayax.csv file...
+Argument: /var/www/library/web/uploads/spend/mayax.csv
+starting /var/www/library/web/uploads/spend/mayax.csv  
+parsing file /var/www/library/web/uploads/spend/mayax.csv<br/>completed /var/www/library/web/uploads/spend/mayax.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayay.csv file...
+Argument: /var/www/library/web/uploads/spend/mayay.csv
+starting /var/www/library/web/uploads/spend/mayay.csv  
+parsing file /var/www/library/web/uploads/spend/mayay.csv<br/>completed /var/www/library/web/uploads/spend/mayay.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayaz.csv file...
+Argument: /var/www/library/web/uploads/spend/mayaz.csv
+starting /var/www/library/web/uploads/spend/mayaz.csv  
+parsing file /var/www/library/web/uploads/spend/mayaz.csv<br/>completed /var/www/library/web/uploads/spend/mayaz.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/mayba.csv file...
+Argument: /var/www/library/web/uploads/spend/mayba.csv
+starting /var/www/library/web/uploads/spend/mayba.csv  
+parsing file /var/www/library/web/uploads/spend/mayba.csv<br/>completed /var/www/library/web/uploads/spend/mayba.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/maybb.csv file...
+Argument: /var/www/library/web/uploads/spend/maybb.csv
+starting /var/www/library/web/uploads/spend/maybb.csv  
+parsing file /var/www/library/web/uploads/spend/maybb.csv<br/>completed /var/www/library/web/uploads/spend/maybb.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/maybc.csv file...
+Argument: /var/www/library/web/uploads/spend/maybc.csv
+starting /var/www/library/web/uploads/spend/maybc.csv  
+parsing file /var/www/library/web/uploads/spend/maybc.csv<br/>completed /var/www/library/web/uploads/spend/maybc.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/maybd.csv file...
+Argument: /var/www/library/web/uploads/spend/maybd.csv
+starting /var/www/library/web/uploads/spend/maybd.csv  
+parsing file /var/www/library/web/uploads/spend/maybd.csv<br/>completed /var/www/library/web/uploads/spend/maybd.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/maybe.csv file...
+Argument: /var/www/library/web/uploads/spend/maybe.csv
+starting /var/www/library/web/uploads/spend/maybe.csv  
+parsing file /var/www/library/web/uploads/spend/maybe.csv<br/>completed /var/www/library/web/uploads/spend/maybe.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/maybf.csv file...
+Argument: /var/www/library/web/uploads/spend/maybf.csv
+starting /var/www/library/web/uploads/spend/maybf.csv  
+parsing file /var/www/library/web/uploads/spend/maybf.csv<br/>completed /var/www/library/web/uploads/spend/maybf.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/maybg.csv file...
+Argument: /var/www/library/web/uploads/spend/maybg.csv
+starting /var/www/library/web/uploads/spend/maybg.csv  
+parsing file /var/www/library/web/uploads/spend/maybg.csv<br/>completed /var/www/library/web/uploads/spend/maybg.csv 
+
+
+
+Processing /var/www/library/web/uploads/spend/maybh.csv file...
+Argument: /var/www/library/web/uploads/spend/maybh.csv
+starting /var/www/library/web/uploads/spend/maybh.csv  
+parsing file /var/www/library/web/uploads/spend/maybh.csv<br/>completed /var/www/library/web/uploads/spend/maybh.csv 
 
 
 

@@ -16,6 +16,27 @@ class SpendTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Spend');
     }
+    public static function getDateFirstPayment(){
+        
+        $connection = Doctrine_Manager::connection();
+        $query = 'SELECT min(spenddate) as theDate from spend';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $firstDate=$resultset->theDate;
+        return $firstDate;
+    }    
+    
+    public static function getDateLastPayment(){
+        
+        $connection = Doctrine_Manager::connection();
+        $query = 'SELECT max(spenddate) as theDate from spend';
+        $statement=$connection->execute($query);
+        $statement->execute();
+        $resultset=$statement->fetch(PDO::FETCH_OBJ);
+        $lastDate=$resultset->theDate;
+        return $lastDate;
+    }        
     
     public static function getNumberOfTransactions(){
         

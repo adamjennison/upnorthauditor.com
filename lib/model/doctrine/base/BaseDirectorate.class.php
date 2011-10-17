@@ -8,16 +8,22 @@
  * @property integer $id
  * @property string $name
  * @property string $soundexvalue
+ * @property Doctrine_Collection $Supplier
  * @property Doctrine_Collection $Payments
+ * @property Doctrine_Collection $Services
  * 
  * @method integer             getId()           Returns the current record's "id" value
  * @method string              getName()         Returns the current record's "name" value
  * @method string              getSoundexvalue() Returns the current record's "soundexvalue" value
+ * @method Doctrine_Collection getSupplier()     Returns the current record's "Supplier" collection
  * @method Doctrine_Collection getPayments()     Returns the current record's "Payments" collection
+ * @method Doctrine_Collection getServices()     Returns the current record's "Services" collection
  * @method Directorate         setId()           Sets the current record's "id" value
  * @method Directorate         setName()         Sets the current record's "name" value
  * @method Directorate         setSoundexvalue() Sets the current record's "soundexvalue" value
+ * @method Directorate         setSupplier()     Sets the current record's "Supplier" collection
  * @method Directorate         setPayments()     Sets the current record's "Payments" collection
+ * @method Directorate         setServices()     Sets the current record's "Services" collection
  * 
  * @package    myshelf
  * @subpackage model
@@ -48,7 +54,16 @@ abstract class BaseDirectorate extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasMany('Supplier', array(
+             'refClass' => 'Spend',
+             'local' => 'directorate_id',
+             'foreign' => 'supplier_id'));
+
         $this->hasMany('Spend as Payments', array(
+             'local' => 'id',
+             'foreign' => 'directorate_id'));
+
+        $this->hasMany('Service as Services', array(
              'local' => 'id',
              'foreign' => 'directorate_id'));
 

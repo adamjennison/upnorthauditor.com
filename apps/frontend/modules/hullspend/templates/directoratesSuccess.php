@@ -1,4 +1,4 @@
-<h1>Directorates Listing</h1>
+<h1>List of Directorates</h1>
 <?php foreach($directorates as $directorate){ ?>
 
 <p>

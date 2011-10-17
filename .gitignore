@@ -4,3 +4,5 @@
 /log
 /lib/vendor
 /*.zip
+/web/frontend_dev.php
+/web/admin_dev.php

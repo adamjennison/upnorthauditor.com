@@ -64,7 +64,7 @@ class Service extends BaseService
   }    
   
   public function getSuppliersInOrder(){
-      $q=Doctrine_Core::getTable('Suppliers')
+      $q=Doctrine_Core::getTable('Supplier')
       ->createQuery('s')
       ->where('s.directorate_id=?',$this->getId())
       ->orderBy('s.name Asc');

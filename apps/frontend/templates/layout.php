@@ -8,7 +8,7 @@
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-
+<!--
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -22,6 +22,7 @@
   })();
 
 </script>  
+-->
   </head>
   <body>
    <?php //include_component('fzTag', 'tagCloud', array('limit' => 25 ));  ?>

@@ -1,8 +1,7 @@
-/config
-/cache
-/web/uploads
-/log
-/lib/vendor
+/config/databases.yml
+/cache/*
+/web/uploads/*
+/log/*
 /*.zip
 /web/frontend_dev.php
 /web/admin_dev.php

@@ -156,6 +156,12 @@ class hullspendActions extends sfActions
      
   }  
   
+  public function executeInfographic(sfWebRequest $request)
+  {
+    $response=$this->getResponse();
+    $response->setTitle('Infographic of Hull City Council spend :: UpNorthAuditor.com');       
+  }
+  
   public function executeDirectorate(sfWebRequest $request)
   {
     //grabs just one directorate
@@ -169,7 +175,16 @@ class hullspendActions extends sfActions
     $response->setTitle($this->directorate->getName().' :: a directorate within Hull City Council :: UpNorthAuditor.com');    
     
   }
-  
+  public function executeDirectorateinfographics(sfWebRequest $request)
+  {
+    //grabs all directorates
+    $q= Doctrine::getTable('Directorate')->createQuery()->orderBy('Name');
+    $this->directorates=$q->execute();    
+    $response=$this->getResponse();
+    $response->setTitle('Directorate infographic of Hull City Council :: UpNorthAuditor.com');  
+    $this->totalvalueoftransaction=Doctrine::getTable('Spend')->getTotalValue();  
+    
+  }  
    public function executeDirectoratePayments(sfWebRequest $request)
   {
     //grabs just one service

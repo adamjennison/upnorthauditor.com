@@ -1,0 +1,105 @@
+Spend: 
+  actAs:      
+    Timestampable: ~ 
+  columns:
+    id:          { type: integer, notnull: true, primary: true, autoincrement: true }  
+    spenddate:   { type: date }
+    transactionnumber: { type: string(255), notnull: true  }
+    amount:      
+      type: 'decimal(10, 2)'
+    suppliername: {type: string(255) }
+    suppliernamesoundex: { type: string(255) }
+    supplier_id:  {  type: integer }
+    suppliernumber: {type: string(255) }
+    directoratename: {type: string(255) }
+    directorate_id : {type: integer }  
+    servicename:     {type: string(255) }
+    service_id:      {type: integer }    
+  relations:
+   supplier:
+     class: Supplier
+     local: supplier_id
+     foreign: id
+     foreignAlias: Orders
+   directorate: 
+     class: Directorate
+     local: directorate_id
+     foreign: id
+     foreignAlias: Payments  
+   service:
+     class: Service
+     local: service_id
+     foreign: id
+     foreignAlias: Servicespend
+     
+       
+Directorate:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      fields: [name]
+      unique: true  
+  columns:  
+    id:   { type: integer, notnull: true, primary: true, autoincrement: true }  
+    name: { type: string(255) }
+    soundexvalue: { type: string(255), notnull: true }    
+  relations:
+    Supplier:
+      refClass: Spend
+    
+Service: 
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      fields: [name]  
+      unique: true         
+  columns:
+    id:  { type: integer, notnull: true, primary: true, autoincrement: true }  
+    name: { type: string(255) }
+    soundexvalue: { type: string(255), notnull: true } 
+    directorate_id : {type: integer }    
+  relations:
+    directorate: 
+      class: Directorate
+      local: directorate_id
+      foreign: id
+      foreignAlias: Services  
+    Supplier:
+      refClass: Spend
+
+    
+    
+    
+        
+Supplier:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      fields: [name]  
+      unique: true         
+  columns:
+    id:  { type: integer, notnull: true, primary: true, autoincrement: true }  
+    name: { type: string(255) }
+    soundexvalue: { type: string(255), notnull: true }     
+    url: {type: string(255)}   
+    notes: {type: string(4000)}
+    views: {type: integer }
+
+Supplieralias:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      fields: [name]  
+      unique: true         
+  columns:
+    id:  { type: integer, notnull: true, primary: true, autoincrement: true }  
+    name: { type: string(255) }
+    soundexvalue: { type: string(255), notnull: true }  
+    suppliernumber: { type: string(255) }    
+    supplier_id : {type: integer }    
+  relations:
+   supplier: 
+     class: Supplier
+     local: supplier_id
+     foreign: id
+     foreignAlias: Aliases      
